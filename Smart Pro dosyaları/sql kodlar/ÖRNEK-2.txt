@@ -1,0 +1,22 @@
+--USE suleymanavsar
+--SELECT *
+--INSERT INTO Table_1(kID,kID,kMeslek,kParola)
+--values (58,'suleyman','Parl123!','Öðretmen');
+
+--USE suleymanavsar
+--SELECT *
+--INSERT INTO Table_1
+--		VALUES (88,NULL,'Rap123!','Bankaci');
+
+
+--select *
+--from Table_1
+--where 
+--kID IS NULL
+
+
+--SELECT *
+--FROM Table_1
+--UPDATE Table_1
+--SET kID=25,kADi='Sevda'
+--WHERE kID IS  NOT   NULL AND kMeslek='kurs';

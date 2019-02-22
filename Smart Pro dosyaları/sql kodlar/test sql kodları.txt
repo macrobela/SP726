@@ -1,0 +1,13 @@
+use TEST
+create proc SP_Elaman_Guncelle
+(
+@id int,
+@ad nvarchar (50),
+@soyad nvarchar(50),
+@sehir nvarchar(20)
+
+)
+as
+begin
+update Eleman SET Ad=@ad,Soyad=@soyad,Sehir=@sehir where  ID=@id;
+end

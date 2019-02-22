@@ -1,0 +1,6 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\klasordegistirmelogları\klasordegistirmelogları\bin\Debug\klasordegistirmelogları.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\klasordegistirmelogları\klasordegistirmelogları\bin\Debug\klasordegistirmelogları.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\klasordegistirmelogları\klasordegistirmelogları\bin\Debug\klasordegistirmelogları.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\klasordegistirmelogları\klasordegistirmelogları\obj\Debug\klasordegistirmelogları.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\klasordegistirmelogları\klasordegistirmelogları\obj\Debug\klasordegistirmelogları.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\klasordegistirmelogları\klasordegistirmelogları\obj\Debug\klasordegistirmelogları.pdb

@@ -1,0 +1,5 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication53\ConsoleApplication53\bin\Debug\ConsoleApplication53.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication53\ConsoleApplication53\bin\Debug\ConsoleApplication53.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication53\ConsoleApplication53\bin\Debug\ConsoleApplication53.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication53\ConsoleApplication53\obj\Debug\ConsoleApplication53.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication53\ConsoleApplication53\obj\Debug\ConsoleApplication53.pdb

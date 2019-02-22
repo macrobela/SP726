@@ -1,0 +1,21 @@
+USE [NORTHWND]
+--GO
+
+--/****** Object:  UserDefinedFunction [dbo].[parametreliDeger]    Script Date: 4.02.2019 14:07:10 ******/
+--SET ANSI_NULLS ON
+--GO
+
+--SET QUOTED_IDENTIFIER ON
+--GO
+
+--create function [dbo].[parametreliDeger] (@Quantity int)
+--returns Table
+--as
+--return select * from [Order Details] where Quantity<=@Quantity
+--GO
+
+
+select * from parametreliDeger(50) where ProductID=37 order by Quantity
+
+
+trigger sql yarýn görüces

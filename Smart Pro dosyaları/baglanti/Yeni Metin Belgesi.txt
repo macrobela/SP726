@@ -1,0 +1,53 @@
+--/****** Script for SelectTopNRows command from SSMS  ******/
+----SELECT TOP 1000 [ID]
+----      ,[Name]
+----  FROM [EmlakSatis].[dbo].[Deneme]
+
+--    use EmlakSatis
+--  INSERT INTO Deneme (ID,Name) 
+--  Values(1,'Sül')
+
+--  use EmlakSatis
+--  grant create table to suleymanavsar -- grant yetki anlama geliyor
+--  go
+
+--  use EmlakSatis
+--  grant insert into suleymanavsar --yetkiyi verir
+
+--      use EmlakSatis
+--  revoke update on deneme to suleymanavsar  --yetkiyi siler
+
+--  grant insert on deneme to suleymanavsar --sadece deneme tablosunda insert yetkisini ver
+
+
+use EmlakSatis
+grant insert into,update,delete to suleymanavsar --yetkýyý eski haline döndürür.
+
+grant alter on suleymanavsar -- Tablolarda deðiþikýlik yetkisi verdik.
+revoke alter to suleyman avsar   -- Tablolarda deðiþikýlik yetkisi aldýk.
+
+
+
+
+grant alter on Deneme To suleymanavsar -- denem tablosunda deðiþiklik 
+revoke alter on Deneme to suleymanavsar -- deneme tablosunda deðiþiklik
+
+--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+/* revoke yetkýyý eski haline getirir.
+Deny yetkiyi tamamen siler.
+*/
+--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Deny insert,select on Deneme to suleymanavsar
+--Daha önce yetkýlý olsa dahi bu iþlemleri yapamaz.
+--Yetkýyý tamamen siler.
+
+DENY ALL on Deneme TO suleymanavsar 
+
+
+
+create rOLE sena
+With PASSWORD='1234'
+
+create LOGIN sena
+With PASSWORD='1234'

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<okul>
+  <baslik bilgi="Bu etiket basligi icermektedir">Ögrenci Listesi</baslik>
+  
+  <ogrenci numara="og1">
+    <ad>Süleyman Beytullah</ad>
+    <soyad>Avşar</soyad>
+    <sinif>404</sinif>
+    <dogumtari>24-04-1995</dogumtari>
+  </ogrenci>
+
+  <ogrenci numara="ogr2">
+    <ad>Faruk</ad>
+    <soyad>Akat</soyad>
+    <sinif>404</sinif>
+    <dogumtari>01-05-1995</dogumtari>
+  </ogrenci>
+  
+  </okul>

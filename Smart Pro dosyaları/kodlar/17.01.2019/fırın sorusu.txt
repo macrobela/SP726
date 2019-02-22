@@ -1,0 +1,95 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication88
+{
+    enum Enerjiler : byte { A, B, C, D, E }
+    enum Fýrýnlar : byte {MiniFýrýn,NormalFýrýn }
+    class BeyazEsya
+    {
+        public string Marka;
+        public int Fiyat;
+        public int GarantiSuresi;
+        public Enerjiler Enerji;
+        public Fýrýnlar fýrýnlar;
+        public BeyazEsya (string marka,int fiyat,int garantisuresi,Enerjiler enerji)
+        {
+            this.Marka = marka;
+            this.Fiyat = fiyat;
+            this.GarantiSuresi = garantisuresi;
+            this.Enerji = enerji;
+        }
+        virtual public void indirimliFiyatHesapla()
+        {
+            Console.WriteLine($"Ýndirim Yok: \nFiyat Bilgisi: {Fiyat}");
+        }
+    }
+    class BulasikMakinesi:BeyazEsya
+    {
+        public  int ProgramSayisi;
+        public string Modeli;
+        public int ÝndirimOrani;
+
+        public BulasikMakinesi(int programsayisi,string modeli,int indirimorani, string marka, int fiyat, int garantisuresi,Enerjiler enerji) :base(marka,fiyat,garantisuresi,enerji)
+        {
+            this.ProgramSayisi = programsayisi;
+            this.Modeli = modeli;
+            this.ÝndirimOrani = indirimorani;
+        }
+        public override void indirimliFiyatHesapla()
+        {
+            int indirimliFiyat = this.Fiyat - ((Fiyat * this.ÝndirimOrani) / 100);
+            Console.WriteLine("Ýndirim Orani: "+this.ÝndirimOrani+" \nFiyat Bilgisi : "+ indirimliFiyat);
+        }
+    }
+    class Firin : BeyazEsya
+    {
+        public int IndýrýmOrani;
+        public Firin(string marka,int indirimorani, int fiyat, int garantisuresi, Enerjiler enerji,Fýrýnlar fýrýnlar) : base(marka, fiyat, garantisuresi, enerji)
+        {
+            this.fýrýnlar = fýrýnlar;
+            this.IndýrýmOrani = indirimorani;
+        }
+        override public void indirimliFiyatHesapla()
+        {
+            Console.WriteLine("Ýndirim oraný %"+ IndýrýmOrani);
+            Fiyat = Fiyat - (Fiyat * IndýrýmOrani / 100);
+            Console.WriteLine(Fiyat);
+        }
+    }
+
+    class MiniFirin : Firin
+    {
+        public MiniFirin(string marka, int fiyat, int garantisuresi, Enerjiler enerji,Fýrýnlar fýrýnlar,int indirimorani) : base(marka,indirimorani, fiyat, garantisuresi, enerji,fýrýnlar)
+        { 
+        }
+        override public void indirimliFiyatHesapla()
+        {
+            Console.WriteLine("Ýndirim oraný %" + IndýrýmOrani);
+            Fiyat = Fiyat - (Fiyat * IndýrýmOrani / 100);
+            Console.WriteLine(Fiyat);
+        }
+    }  
+    class Program
+    {
+        static void indirimliFiyatHesapla(BeyazEsya be)
+        {
+            be.indirimliFiyatHesapla();
+        }
+        static void Main(string[] args)
+        {
+            BulasikMakinesi bm = new BulasikMakinesi(2, "X32" ,30,"Arcelik",1000,4,Enerjiler.A);
+			indirimliFiyatHesapla(bm);
+            Firin s = new Firin("Sony",30,5200,6,Enerjiler.E,Fýrýnlar.NormalFýrýn);12:52 17.01.2019
+			 indirimliFiyatHesapla(s);
+            MiniFirin dener = new MiniFirin("arcelik",1500,5,Enerjiler.B,Fýrýnlar.MiniFýrýn,6);
+         		indirimliFiyatHesapla(dener);   
+           
+           
+            Console.ReadKey();
+        }
+    }
+}

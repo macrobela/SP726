@@ -1,0 +1,9 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\linq_odev3\linq_odev3\bin\Debug\linq_odev3.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\linq_odev3\linq_odev3\bin\Debug\linq_odev3.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\linq_odev3\linq_odev3\bin\Debug\linq_odev3.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\linq_odev3\linq_odev3\obj\Debug\linq_odev3.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\linq_odev3\linq_odev3\obj\Debug\linq_odev3.Form1.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\linq_odev3\linq_odev3\obj\Debug\linq_odev3.Properties.Resources.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\linq_odev3\linq_odev3\obj\Debug\linq_odev3.csproj.GenerateResource.Cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\linq_odev3\linq_odev3\obj\Debug\linq_odev3.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\linq_odev3\linq_odev3\obj\Debug\linq_odev3.pdb

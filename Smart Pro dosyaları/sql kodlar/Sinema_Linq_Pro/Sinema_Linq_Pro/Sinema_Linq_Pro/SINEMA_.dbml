@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SINEMA" Class="SINEMA_DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost;Initial Catalog=SINEMA;User ID=sa" SettingsObjectName="Sinema_Linq_Pro.Properties.Settings" SettingsPropertyName="SINEMAConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Yayin" Member="Yayins">
+    <Type Name="Yayin">
+      <Column Name="YayinID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FilmID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SalonID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FYZaman" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Salon" Member="Salons">
+    <Type Name="Salon">
+      <Column Name="SalonID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SalonAdi" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Yayin_Isimli" Member="Yayin_Isimlis">
+    <Type Name="Yayin_Isimli">
+      <Column Name="FilmAdi" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="SalonAdi" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="FYZaman" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Film" Member="Films">
+    <Type Name="Film">
+      <Column Name="FilmID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FilmAdi" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="FilmKisaBilgi" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="FilmFragmanLink" Type="System.String" DbType="NVarChar(350)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.SP_FilmKaydet" Method="SP_FilmKaydet">
+    <Parameter Name="ID" Parameter="iD" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Parameter Name="FilmAdi" Parameter="filmAdi" Type="System.String" DbType="NVarChar(250)" />
+    <Parameter Name="FilmKisaBilgi" Parameter="filmKisaBilgi" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="FilmFragmanLink" Parameter="filmFragmanLink" Type="System.String" DbType="NVarChar(350)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

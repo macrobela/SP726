@@ -1,0 +1,6 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication106\ConsoleApplication106\bin\Debug\ConsoleApplication106.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication106\ConsoleApplication106\bin\Debug\ConsoleApplication106.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication106\ConsoleApplication106\bin\Debug\ConsoleApplication106.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication106\ConsoleApplication106\obj\Debug\ConsoleApplication106.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication106\ConsoleApplication106\obj\Debug\ConsoleApplication106.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication106\ConsoleApplication106\obj\Debug\ConsoleApplication106.csprojResolveAssemblyReference.cache

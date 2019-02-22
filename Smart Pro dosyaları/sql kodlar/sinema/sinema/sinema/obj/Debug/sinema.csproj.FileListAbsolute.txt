@@ -1,0 +1,15 @@
+C:\Users\suley\Desktop\sinema\sinema\bin\Debug\sinema.exe.config
+C:\Users\suley\Desktop\sinema\sinema\bin\Debug\sinema.exe
+C:\Users\suley\Desktop\sinema\sinema\bin\Debug\sinema.pdb
+C:\Users\suley\Desktop\sinema\sinema\obj\Debug\sinema.csprojResolveAssemblyReference.cache
+C:\Users\suley\Desktop\sinema\sinema\obj\Debug\sinema.Form1.resources
+C:\Users\suley\Desktop\sinema\sinema\obj\Debug\sinema.Properties.Resources.resources
+C:\Users\suley\Desktop\sinema\sinema\obj\Debug\sinema.csproj.GenerateResource.Cache
+C:\Users\suley\Desktop\sinema\sinema\obj\Debug\sinema.exe
+C:\Users\suley\Desktop\sinema\sinema\obj\Debug\sinema.pdb
+C:\Users\suleyman.avsar\Desktop\sinema\sinema\sinema\bin\Debug\sinema.exe.config
+C:\Users\suleyman.avsar\Desktop\sinema\sinema\sinema\obj\Debug\sinema.exe
+C:\Users\suleyman.avsar\Desktop\sinema\sinema\sinema\obj\Debug\sinema.pdb
+C:\Users\suleyman.avsar\Desktop\sql kodlar\sinema\sinema\sinema\bin\Debug\sinema.exe.config
+C:\Users\suleyman.avsar\Desktop\sql kodlar\sinema\sinema\sinema\obj\Debug\sinema.exe
+C:\Users\suleyman.avsar\Desktop\sql kodlar\sinema\sinema\sinema\obj\Debug\sinema.pdb

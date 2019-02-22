@@ -1,0 +1,8 @@
+C:\Users\aAa\Desktop\OgrenciCalismaEntityFramework\OgrenciCalismaEntityFramework\bin\Debug\OgrenciCalismaEntityFramework.exe.config
+C:\Users\aAa\Desktop\OgrenciCalismaEntityFramework\OgrenciCalismaEntityFramework\bin\Debug\OgrenciCalismaEntityFramework.exe
+C:\Users\aAa\Desktop\OgrenciCalismaEntityFramework\OgrenciCalismaEntityFramework\bin\Debug\OgrenciCalismaEntityFramework.pdb
+C:\Users\aAa\Desktop\OgrenciCalismaEntityFramework\OgrenciCalismaEntityFramework\obj\x86\Debug\OgrenciCalismaEntityFramework.Form1.resources
+C:\Users\aAa\Desktop\OgrenciCalismaEntityFramework\OgrenciCalismaEntityFramework\obj\x86\Debug\OgrenciCalismaEntityFramework.Properties.Resources.resources
+C:\Users\aAa\Desktop\OgrenciCalismaEntityFramework\OgrenciCalismaEntityFramework\obj\x86\Debug\OgrenciCalismaEntityFramework.csproj.GenerateResource.Cache
+C:\Users\aAa\Desktop\OgrenciCalismaEntityFramework\OgrenciCalismaEntityFramework\obj\x86\Debug\OgrenciCalismaEntityFramework.exe
+C:\Users\aAa\Desktop\OgrenciCalismaEntityFramework\OgrenciCalismaEntityFramework\obj\x86\Debug\OgrenciCalismaEntityFramework.pdb

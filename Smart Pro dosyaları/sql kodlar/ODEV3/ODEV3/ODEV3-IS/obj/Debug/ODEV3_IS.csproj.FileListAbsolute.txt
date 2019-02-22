@@ -1,0 +1,10 @@
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\ODEV3\ODEV3-IS\bin\Debug\ODEV3-IS.dll
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\ODEV3\ODEV3-IS\bin\Debug\ODEV3-IS.pdb
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\ODEV3\ODEV3-IS\obj\Debug\ODEV3_IS.csprojResolveAssemblyReference.cache
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\ODEV3\ODEV3-IS\obj\Debug\ODEV3-IS.dll
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\ODEV3\ODEV3-IS\obj\Debug\ODEV3-IS.pdb
+C:\Users\suleyman.avsar\Desktop\ODEV3\ODEV3\ODEV3-IS\bin\Debug\ODEV3-IS.dll
+C:\Users\suleyman.avsar\Desktop\ODEV3\ODEV3\ODEV3-IS\bin\Debug\ODEV3-IS.pdb
+C:\Users\suleyman.avsar\Desktop\ODEV3\ODEV3\ODEV3-IS\obj\Debug\ODEV3_IS.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\ODEV3\ODEV3\ODEV3-IS\obj\Debug\ODEV3-IS.dll
+C:\Users\suleyman.avsar\Desktop\ODEV3\ODEV3\ODEV3-IS\obj\Debug\ODEV3-IS.pdb

@@ -1,0 +1,136 @@
+Experience with HTML5, CSS and JavaScript,
+Experience with AngularJS
+Experience with AJAX, Restful Structures, JSON,
+Familiar with build systems, gulp, grunt
+Good knowledge of using version control system. preferred git.
+Familiarity with DevOps (Continuous Integration, Continuous testing and Continuous delivery) is a plus,
+Familiarity with Cloud based serverless platforms is an asset 
+Ability to write reusable, modular and well-performing code.
+Familiarity with browser testing and debugging
+Understanding of layout aesthetics
+Min 3-year experience in field
+Great English communication
+Degree in Computer Science or relevant field
+
+
+--------------------------------------------------------------------------------------------------------
+	Üniversitelerin tercihen Bilgisayar mühendisliði bölümünden mezun,
+•	Minumum 5 yýl development deneyimi olan,
+•	Erkek adaylar için askerliðini yapmýþ,
+•	C#, ASP.NET MVC, Web Api konusunda tecrübeli,
+•	Tercihen Java&J2EE konusunda deneyim sahibi,
+•	Client Server mimarisini bilen,
+•	Tercihen PL/SQL bilen,
+•	Tercihen Sigorta uygulamalarý tecrübesine sahip,
+•	Tercihen PostgreSQL konusunda deneyimli,
+•	Sürekli öðrenerek kendini yenileyen, problem çözmekten zevk alan, sonuç odaklý, araþtýrmacý ve yeniliklere açýk,
+•	Ekip çalýþmasýna yatkýn ve motivasyonu yüksek.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace katýlým_polimorfom
+{
+    class Hayvan
+    {
+        virtual public void SesCikar()//virtual (sanal) devre dýþý býrakýlabilir üzerinhe yazýlabilir.
+        {
+            Console.WriteLine("Hayvanlar sesleri çeþitlidir.!");
+        }
+    }
+    class Kedi:Hayvan
+    {
+        override public  void SesCikar()  //new olunca bilinçli olarak ses cýkar.//ezmek türevden sýnýf-burada override olmazsa virtual devam eder.
+        {
+            Console.WriteLine("Miyav Miyav");
+            //base.SesCikar();
+        }
+    }
+    class Tavuk:Hayvan
+    {
+        public void SesCikar()
+        {
+            Console.WriteLine("Git Git Gidaaak");
+        }
+    }
+    class Program
+    {
+        public static void SesCikar(Hayvan hyvn)
+        {
+            hyvn.SesCikar();
+        }
+        static void Main(string[] args)
+        {
+            Hayvan hayvan1 = new Hayvan();
+            Kedi kedi1 = new Kedi();
+            Tavuk tavuk1 = new Tavuk();
+            //hayvan1.SesCikar();
+            //kedi1.SesCikar();
+            //tavuk1.SesCikar();
+            Hayvan hyvn = kedi1;
+            SesCikar(hayvan1);
+            SesCikar(kedi1);
+            SesCikar(tavuk1);
+
+            Console.ReadKey();
+        }
+    }
+}
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

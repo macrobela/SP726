@@ -1,0 +1,27 @@
+Deðiþkenler
+----------------
+Fiyat: 50000
+MotorHacmi: 1400,1600, 2000, 2500
+Plaka: 34UT1707
+OTV:   OTVHesapla metodunda hesaplanacak.
+
+public double OTVHesapla(Fiyat,MotorHacmi)
+----------------------------------------------------------------
+Motor      Hacmi		Vergisiz Satýþ Tutarý   	ÖTV Oraný  
+
+1600 cm3'e kadar		70 bin TL'ye kadar		%30
+1600 cm3'e kadar		70 - 120 bin TL arasý		%35
+1600 cm3'e kadar		120 bin TL ve üzeri		%60
+1600-2000 cm3 arasý    	170 bin TL'ye kadar		%100
+1600-2000 cm3 arasý    	170 bin TL ve üzeri		%110
+2000 cm3 üzeri	     	Tutar sýnýrý yok		%160
+
+public void AracEkle(ArrayList aList)
+-------------------------------------------------
+3 tane araç bilgisi girilecek.
+aListe þu sýrayla eklenecek: Plaka,Fiyat
+OTV = OTVHesapla(Fiyat,MotorHacmi)
+OTV aListe eklenecek.
+Main					static public void AracListele(ArrayList)
+-------------------------------------------------		------------------------------------------------------
+ArrayList oluþtur metotlarý çaðýr.    		34UT1707       50000       15000	

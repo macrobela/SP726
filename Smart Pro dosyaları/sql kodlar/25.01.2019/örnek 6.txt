@@ -1,0 +1,7 @@
+soru :ögrenci listesindeki 0 dan 5. sayýya kadar ögrencileri listele
+
+USE NORTHWND
+SELECT * FROM Suppliers
+ORDER BY SupplierID 
+OFFSET 0 rows --ilk 5 satýrdan itibaren
+Fetch next 5 rows only --sonraki 5 satýrý getir

@@ -1,0 +1,503 @@
+            int toplam = 0;
+
+            int X, Y, Z;
+
+            Console.WriteLine("Sayi Giriniz :");
+            X = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Sayi Giriniz :");
+            Y = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Sayi Giriniz :");
+            Z = Convert.ToInt32(Console.ReadLine());
+
+
+            int[,,] dizi1 = new int[X, Y, Z];
+
+            Random rastgele = new Random();
+
+            
+
+            for (int i = 0; i < X; i++)
+            {
+                Console.Write("[");
+                for (int j = 0; j < Y; j++)
+                {
+                    Console.Write("(");
+
+                    for (int l = 0; l < Z; l++)
+                    {
+                        int rsayi = rastgele.Next(10, 90);
+                        dizi1[i, j, l] = rsayi;
+
+                        Console.Write(" {0} ", dizi1[i, j, l]);
+                       
+
+                        if (j == 0)
+                        {
+                            if (l==0)
+                            {
+                                toplam = toplam + rsayi;
+                                //toplam = toplam + dizi1[i, j, l];
+                            }
+                        }
+                    }
+                    Console.Write(")");
+                }
+                Console.Write("]");
+                Console.WriteLine();
+            }
+            Console.Write("Toplamlarý :" + toplam);
+            
+
+            Console.Read();
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Klavyeden girilen dosyayý toplama cýkarma bölme carpma islemini yapan program
+
+    static object islem(int x, int y, string t)
+        {
+            if (t == "T")
+                return (x + y);
+
+            else if (t == "B")
+            {
+                if (y==0)
+                {
+                    return "Hatalý Giris yapýldý.";
+                }
+                return (x / y);
+            }
+            else if (t == "C")
+            return (x * y);
+            return "Hatalý Giris yapýldý";                                   
+        }
+        static void Main(string[] args)
+        {
+            int a, b;
+            string deger2;
+            object sonuc;
+
+            Console.WriteLine("1.sayiyi giriniz :");
+            a = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("2.sayiyi giriniz :");
+            b = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Ýslem sonucu");
+            deger2 = Console.ReadLine();
+            sonuc = islem(a, b,deger2);
+            Console.WriteLine(sonuc);
+            Console.ReadKey();
+        }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Klavyeden girilen sayýyý asal olup olmadýgýný bulan program
+
+
+        static bool Asalmi(int sayi)
+        {
+            for (int i = 2; i < sayi; i++)
+            {
+                if (sayi % i == 0)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+        static void Main(string[] args)
+        {
+            Console.Write("Bir sayý girin :");
+            int sayi = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(Asalmi(sayi));
+
+            Console.ReadKey();
+
+        }
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+static void Dizimi(int[] sayi)
+        {
+            int[] sayilar = new int[10];
+            double toplam = 0, ort = 0;
+            foreach (var i in sayi)
+            {
+                toplam += i;
+                ort = toplam / i;
+            }
+            Array.Sort(sayilar);
+            Console.WriteLine("Toplamlarý :"+toplam);
+            Console.WriteLine("Ortalama :"+ort);
+        }
+        static void Main(string[] args)
+        {
+            int[] sayilar = new int[10];
+            for (int i = 0; i < 10; i++)
+            {
+                Console.Write("Klavyeden {0}. sayýyý girin:", i + 1);
+                sayilar[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            Dizimi(sayilar);
+            Console.ReadKey();
+        }
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+static long Carp(params int[] dizi)
+        {
+            long carpim = 1;
+            foreach (int item in dizi)
+            {
+                carpim = carpim * item;
+            }
+            return carpim;
+        }
+        static void Main(string[] args)
+        {
+            Console.WriteLine(Carp(9999999,9999999));
+            Console.WriteLine(Carp(3, 5));
+            Console.ReadLine(); 
+        }
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//method overloading/aþýrý metot yukleme
+        static int topla(int a, int b)
+        {
+            return (a+b);
+        }
+        static int topla(int a, int b,int c)
+        {
+            return (a + b+c);
+        }
+        static void Main(string[] args)
+        {
+            Console.WriteLine(topla(6,7));
+            Console.WriteLine(topla(3,2,4));
+            Console.ReadLine();
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+////////   -- Klavyeden girilen sayilarin 2 ile carpýp + 5 sayi ile toplayarak ekrana yazdýran program
+
+
+ static void kare(ref int[] sayi)
+        {
+            for (var i=0; i<sayi.Length;i++)
+            {
+                int sonuc = (int)Math.Pow(sayi[i], 2);
+                sonuc *= 2;
+                sonuc = sonuc + 5;
+                sayi[i] = sonuc;
+                Console.WriteLine(" sayýsýnýn formulü : " + sonuc);
+            }
+        }
+        static void Main(string[] args)
+        {
+            int[] sayi = new int[5];
+            for (int i = 0; i <5; i++)
+            {
+                Console.Write("Sayý  : ");
+                int a = Convert.ToInt32(Console.ReadLine());
+                sayi[i] = a;
+            }
+            kare(ref sayi);
+            foreach (var item in sayi)
+            {
+                Console.WriteLine(item);
+            }
+            Console.ReadKey();
+
+
+
+
+            ////Metot uygulamasý
+
+
+            //Double pi = Math.PI;
+            //Console.WriteLine(Math.PI);
+            //Console.WriteLine(Math.E);
+
+            //Console.WriteLine("Mutlak : "+Math.Abs(-8)); //Mutlak Deðer
+            //Console.WriteLine("Cos : " + Math.Cos(45));  //Cos
+            //Console.WriteLine("Sin : " + Math.Sin(45));  //Sin
+            //Console.WriteLine("Tan : " + Math.Tan(45));  //Tan
+
+            //Console.WriteLine("Max : " + Math.Max(4,5));  //Büyük 
+            //Console.WriteLine("Min : " + Math.Min(4,5));  //Kücük
+            //Console.WriteLine("Ust : " + Math.Pow(2, 999));  //Üs Alýr
+            //Console.WriteLine("----------------------------");
+            //Console.WriteLine("Karekök :"+Math.Sqrt(2555555)); //Karekök Alýnýr
+
+            Console.ReadLine();
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+static void Topla(int[] b)
+        {
+            int toplam = 0;
+            for (int i = 0; i < b.Length; i++)
+            {
+                toplam = toplam+b[i];
+                Console.WriteLine("Sayilarin Toplamý"+toplam);        
+            }
+        }
+
+        static void topla(int a, int b, int c = 4)
+        {
+            int toplam = 0;
+            toplam = toplam + (a+b+c);
+            Console.WriteLine("Ýlk 3 sayýnýn toplamý"+toplam);
+        }
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Sayi Giriniz :");
+            int a = Convert.ToInt32(Console.ReadLine());
+            int[] dizi = new int[a];
+            Random rastgele = new Random();
+            for (int i = 0; i < a; i++)
+            {
+                int rsayi = rastgele.Next(75,125);
+                dizi[i] = rsayi;
+                Console.WriteLine("Dizinin"+i+".terimi"+dizi[i]); 
+            }
+            Topla(dizi);
+            topla(dizi[0], dizi[1], dizi[2]);
+            Console.ReadKey();
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+                                      // CLASS KURS  
+
+
+class kurs
+    {
+        public int sýnýf_no;
+        public string ogretmen_Adi;
+        public int kursiyerSayisi;
+        private ArrayList kursiyer_bilgileri = new ArrayList();
+
+        public void KursiyerKayit()
+        {
+            Console.WriteLine("Sinif no giriniz :");
+            sýnýf_no = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Ögretmen Adi Giriniz");
+            string ogretmenadi = Convert.ToString(Console.ReadLine());
+
+            //kursiyerSayisi = 3;
+            for (int i = 0; i < kursiyerSayisi; i++)
+            {
+                Console.WriteLine("Kursiyer Adi Giriniz:");
+                string kursiyerAdi = Console.ReadLine();
+                kursiyer_bilgileri.Add(kursiyerAdi);
+            }
+            Console.WriteLine(sýnýf_no);
+            Console.WriteLine(ogretmenadi);
+            for (int i = 0; i < kursiyer_bilgileri.Count; i++)
+            {
+                Console.WriteLine(kursiyer_bilgileri[i]);
+            }
+
+
+        }
+
+
+    }
+
+                                                //MAÝN GRUBU
+
+static void Main(string[] args)
+        {
+            kurs frms = new kurs();
+            frms.kursiyerSayisi = 5;
+            frms.KursiyerKayit();
+
+
+             Console.ReadKey();
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+ class kurs
+    {
+        public int sýnýf_no;
+        public string ogretmen_Adi;
+        public int kursiyerSayisi;
+        private ArrayList kursiyer_bilgileri = new ArrayList();
+
+        private void KursiyerKayit()
+        {
+            //kursiyerSayisi = 3;
+            for (int i = 0; i < kursiyerSayisi; i++)
+            {
+                Console.WriteLine("Kursiyer Adi Giriniz:");
+                string kursiyerAdi = Console.ReadLine();
+                kursiyer_bilgileri.Add(kursiyerAdi);
+            }
+            kursiyer_Listele();
+        }
+        private void kursiyer_Listele()
+        {
+            for (int a = 0; a < kursiyer_bilgileri.Count; a++)
+            {
+                Console.WriteLine("Tüm kursiyerler :"+kursiyer_bilgileri[a]);
+            }
+        }
+        public void KursAc()
+        {
+            Console.WriteLine("Sinif no giriniz :");
+            sýnýf_no = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Ögretmen Adi Giriniz");
+            ogretmen_Adi = Convert.ToString(Console.ReadLine());
+
+            Console.WriteLine("kursiyer Sayisi");
+            kursiyerSayisi = Convert.ToInt32(Console.ReadLine());
+
+            KursiyerKayit();
+        }
+    }
+
+	                   				/////////Main /////////
+													
+
+					  	kurs frms = new kurs();
+           				 	frms.KursAc();
+            					Console.ReadKey();
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ public char Ýslem;
+        double sayi1, sayi2;
+
+        
+        public double sonuc(double sayi1,double sayi2,char opt)
+        {
+            if (opt == 'T')
+            {
+                return sayi1 + sayi2;
+            }
+            else if (opt == 'C')
+            {
+                return sayi1 - sayi2;
+            }
+            else if (opt == 'Ç')
+            {
+                return sayi1 * sayi2;
+            }
+            else if (opt == 'B')
+            {
+                return sayi1 / sayi2;
+            }
+            else
+            {
+                return 0;
+            }
+        }
+
+
+								MAÝN KISMINI ÞUNLARI YAZIYORUZ
+
+			char opt;
+            
+
+            Matematik araba1 = new Matematik();
+
+            Console.Write(" Birinci Sayýyý Girin :");
+            double sayi1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write(" Ýkinci Sayýyý Girin :");
+            double sayi2 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Ýþlem yapmak icin operatör secin:");
+            opt = Convert.ToChar(Console.ReadLine());
+
+            Console.WriteLine( araba1.sonuc(sayi1,sayi2,opt));
+        
+
+
+        Console.ReadKey();
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace NestedClass
+{
+    class Ogretmen
+    {
+        public string OgretmenAdiSoyadi;
+        public string OgretmenYasi;
+
+        public Sinif _yasBilgisi;
+
+        public Ogretmen()
+        {
+            _yasBilgisi = new Sinif();
+        }
+
+
+
+        // Yukarýdaki nesne tanýmlama sayesinde
+        // YasBilgisi sýnýfýnýn üyelerine bu sýnýf nesnesi aracýlýðý ile deðer atayabiliriz.
+        // Metotlarýný kullanýlabiliriz.
+
+        public void BilgiYazdir()
+        {
+            Console.WriteLine(OgretmenAdiSoyadi + "\n"+OgretmenYasi);
+           
+        }
+    }
+    class Sinif
+    {
+        public int SinifAdi;
+        public int DerslikNumarasi;
+        public int SinifProgramý;
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Ogretmen kb1 = new Ogretmen();
+            kb1.OgretmenAdiSoyadi ="ÖgretmenAdi ve Soyadi: Mehmet Demir";
+            kb1.OgretmenYasi = " Ögretmen Yaþý : 30";
+            
+            kb1._yasBilgisi.SinifAdi = 723726;
+
+            kb1.BilgiYazdir();
+            Console.WriteLine("Derslik Numarasý :"+ (kb1._yasBilgisi.SinifAdi));
+            
+
+           
+            Console.ReadKey();
+        }
+    }
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------

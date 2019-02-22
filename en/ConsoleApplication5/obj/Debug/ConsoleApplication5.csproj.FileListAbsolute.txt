@@ -1,0 +1,12 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\en\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\en\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\en\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\en\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\en\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\en\ConsoleApplication5\obj\Debug\ConsoleApplication5.csprojResolveAssemblyReference.cache

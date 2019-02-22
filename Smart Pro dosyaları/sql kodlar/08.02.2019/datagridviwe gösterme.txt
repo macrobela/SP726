@@ -1,0 +1,10 @@
+SqlConnection baglanti = new SqlConnection("server=localhost;database=OKUL_VT;user=sa;password=1234");
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            string sorgu = "SELECT * FROM Ogretmenler";
+            SqlDataAdapter tablocek = new SqlDataAdapter(sorgu,baglanti);
+            DataTable elemanTable = new DataTable();
+            tablocek.Fill(elemanTable);
+            dataGridView1.DataSource = elemanTable;
+        }s

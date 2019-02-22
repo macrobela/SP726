@@ -1,0 +1,5 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\WindowsFormsApplication8\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Form1.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache

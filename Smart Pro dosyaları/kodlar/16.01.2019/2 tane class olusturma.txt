@@ -1,0 +1,124 @@
+Experience with HTML5, CSS and JavaScript,
+Experience with AngularJS
+Experience with AJAX, Restful Structures, JSON,
+Familiar with build systems, gulp, grunt
+Good knowledge of using version control system. preferred git.
+Familiarity with DevOps (Continuous Integration, Continuous testing and Continuous delivery) is a plus,
+Familiarity with Cloud based serverless platforms is an asset 
+Ability to write reusable, modular and well-performing code.
+Familiarity with browser testing and debugging
+Understanding of layout aesthetics
+Min 3-year experience in field
+Great English communication
+Degree in Computer Science or relevant field
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace NestedClass
+{
+    class KisiselBilgi
+    {
+        public string Ad;
+        public string Soyad;
+
+        public YasBilgi _yasBilgisi;
+
+        public KisiselBilgi()
+        {
+            _yasBilgisi = new YasBilgi();
+        }
+
+        // Yukarýdaki nesne tanýmlama sayesinde
+        // YasBilgisi sýnýfýnýn üyelerine bu sýnýf nesnesi aracýlýðý ile deðer atayabiliriz.
+        // Metotlarýný kullanýlabiliriz.
+        public void Yazdir()
+        {
+            Console.WriteLine(Ad+"   "+Soyad);
+            Console.WriteLine(_yasBilgisi.Yas);
+        }
+    }
+    class YasBilgi
+    {
+        public int Yas;
+        public void YasYazdir()
+        {
+            Console.WriteLine(Yas);   
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            KisiselBilgi kb1 = new KisiselBilgi();
+            kb1.Ad = "SmartPro";
+            kb1.Soyad = "Kadýköy";
+            kb1._yasBilgisi.Yas = 55;
+            kb1.Yazdir();
+            Console.WriteLine(kb1._yasBilgisi.Yas);
+            Console.ReadKey();
+        }
+    }
+}
+
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

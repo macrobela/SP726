@@ -1,0 +1,9 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\yenixml\yenixml\bin\Debug\yenixml.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\yenixml\yenixml\bin\Debug\yenixml.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\yenixml\yenixml\bin\Debug\yenixml.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\yenixml\yenixml\obj\Debug\yenixml.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\yenixml\yenixml\obj\Debug\yenixml.Form1.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\yenixml\yenixml\obj\Debug\yenixml.Properties.Resources.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\yenixml\yenixml\obj\Debug\yenixml.csproj.GenerateResource.Cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\yenixml\yenixml\obj\Debug\yenixml.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\yenixml\yenixml\obj\Debug\yenixml.pdb

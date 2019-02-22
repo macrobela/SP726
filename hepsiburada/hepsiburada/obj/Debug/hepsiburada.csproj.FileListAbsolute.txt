@@ -1,0 +1,6 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\hepsiburada\hepsiburada\bin\Debug\hepsiburada.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\hepsiburada\hepsiburada\obj\Debug\hepsiburada.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\hepsiburada\hepsiburada\bin\Debug\hepsiburada.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\hepsiburada\hepsiburada\bin\Debug\hepsiburada.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\hepsiburada\hepsiburada\obj\Debug\hepsiburada.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\hepsiburada\hepsiburada\obj\Debug\hepsiburada.pdb

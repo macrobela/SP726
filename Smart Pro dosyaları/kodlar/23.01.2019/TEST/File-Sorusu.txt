@@ -1,0 +1,6 @@
+Klavyeden "kapat" yazýsý girilene kadar Aþaðýdaki bilgileri isteyecek
+ve bir text dosyasýna kaydedecek programý yazýnýz.
+C:\....\Ogrenciler.txt
+
+Öðrenci Adý: Mehmet DEMÝR      Tc Kimlik Numarasý: 555544541
+Öðrenci Adý: Ahmet DEMÝR	   Tc Kimlik Numarasý: 542678641

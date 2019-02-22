@@ -1,0 +1,6 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\katılım_ınterface\katılım_ınterface\bin\Debug\katılım_ınterface.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\katılım_ınterface\katılım_ınterface\bin\Debug\katılım_ınterface.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\katılım_ınterface\katılım_ınterface\bin\Debug\katılım_ınterface.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\katılım_ınterface\katılım_ınterface\obj\Debug\katılım_ınterface.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\katılım_ınterface\katılım_ınterface\obj\Debug\katılım_ınterface.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\katılım_ınterface\katılım_ınterface\obj\Debug\katılım_ınterface.csprojResolveAssemblyReference.cache

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="odev3Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'odev3.dbo.Film' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Film">
+          <Property Name="FilmID" Type="smallint" />
+          <Property Name="FilmAdi" Type="nvarchar" MaxLength="50" />
+        </EntityType>-->
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'odev3.dbo.FilmYayini' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="FilmYayini">
+          <Property Name="FYID" Type="smallint" />
+          <Property Name="FilmID" Type="smallint" />
+          <Property Name="SalonID" Type="smallint" />
+          <Property Name="FYZaman" Type="datetime" />
+        </EntityType>-->
+        <EntityType Name="Ogrenci">
+          <Key>
+            <PropertyRef Name="OgrenciNumara" />
+          </Key>
+          <Property Name="OgrenciNumara" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="OgrenciAdSoyad" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="OgrenciBolum" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="OgrenciFakulte" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'odev3.dbo.Salon' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Salon">
+          <Property Name="SalonID" Type="smallint" />
+          <Property Name="SalonAdi" Type="nvarchar" MaxLength="50" />
+        </EntityType>-->
+        <Function Name="proc_sil" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ogrencinumara" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="sp_guncelle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ogrencinumara" Type="nvarchar" Mode="In" />
+          <Parameter Name="ogrenciadsoyad" Type="nvarchar" Mode="In" />
+          <Parameter Name="ogrencibolum" Type="nvarchar" Mode="In" />
+          <Parameter Name="ogrencifakulte" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="sp_Ogrenci_Kaydet" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ogrenciNumara" Type="nvarchar" Mode="In" />
+          <Parameter Name="ogrenciadsoyad" Type="nvarchar" Mode="In" />
+          <Parameter Name="ogrencibolum" Type="nvarchar" Mode="In" />
+          <Parameter Name="ogrencifakulte" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="sp_Ogrenci_Listele" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <EntityContainer Name="odev3ModelStoreContainer">
+          <EntitySet Name="Ogrenci" EntityType="Self.Ogrenci" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="odev3Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Ogrenci">
+          <Key>
+            <PropertyRef Name="OgrenciNumara" />
+          </Key>
+          <Property Name="OgrenciNumara" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="OgrenciAdSoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="OgrenciBolum" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="OgrenciFakulte" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="odev3Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Ogrenci" EntityType="Self.Ogrenci" />
+          <FunctionImport Name="proc_sil">
+            <Parameter Name="ogrencinumara" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="sp_guncelle">
+            <Parameter Name="ogrencinumara" Mode="In" Type="String" />
+            <Parameter Name="ogrenciadsoyad" Mode="In" Type="String" />
+            <Parameter Name="ogrencibolum" Mode="In" Type="String" />
+            <Parameter Name="ogrencifakulte" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="sp_Ogrenci_Kaydet">
+            <Parameter Name="ogrenciNumara" Mode="In" Type="String" />
+            <Parameter Name="ogrenciadsoyad" Mode="In" Type="String" />
+            <Parameter Name="ogrencibolum" Mode="In" Type="String" />
+            <Parameter Name="ogrencifakulte" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="sp_Ogrenci_Listele" ReturnType="Collection(odev3Model.sp_Ogrenci_Listele_Result)" />
+        </EntityContainer>
+        <ComplexType Name="sp_Ogrenci_Listele_Result">
+          <Property Type="String" Name="OgrenciNumara" Nullable="false" MaxLength="10" />
+          <Property Type="String" Name="OgrenciAdSoyad" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="OgrenciBolum" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="OgrenciFakulte" Nullable="false" MaxLength="50" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="odev3ModelStoreContainer" CdmEntityContainer="odev3Entities">
+          <EntitySetMapping Name="Ogrenci">
+            <EntityTypeMapping TypeName="odev3Model.Ogrenci">
+              <MappingFragment StoreEntitySet="Ogrenci">
+                <ScalarProperty Name="OgrenciNumara" ColumnName="OgrenciNumara" />
+                <ScalarProperty Name="OgrenciAdSoyad" ColumnName="OgrenciAdSoyad" />
+                <ScalarProperty Name="OgrenciBolum" ColumnName="OgrenciBolum" />
+                <ScalarProperty Name="OgrenciFakulte" ColumnName="OgrenciFakulte" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="proc_sil" FunctionName="odev3Model.Store.proc_sil" />
+          <FunctionImportMapping FunctionImportName="sp_guncelle" FunctionName="odev3Model.Store.sp_guncelle" />
+          <FunctionImportMapping FunctionImportName="sp_Ogrenci_Kaydet" FunctionName="odev3Model.Store.sp_Ogrenci_Kaydet" />
+          <FunctionImportMapping FunctionImportName="sp_Ogrenci_Listele" FunctionName="odev3Model.Store.sp_Ogrenci_Listele">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="odev3Model.sp_Ogrenci_Listele_Result">
+                <ScalarProperty Name="OgrenciNumara" ColumnName="OgrenciNumara" />
+                <ScalarProperty Name="OgrenciAdSoyad" ColumnName="OgrenciAdSoyad" />
+                <ScalarProperty Name="OgrenciBolum" ColumnName="OgrenciBolum" />
+                <ScalarProperty Name="OgrenciFakulte" ColumnName="OgrenciFakulte" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

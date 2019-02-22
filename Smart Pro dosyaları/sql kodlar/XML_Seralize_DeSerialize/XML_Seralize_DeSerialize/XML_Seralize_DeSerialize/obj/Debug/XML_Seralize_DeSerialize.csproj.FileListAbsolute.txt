@@ -1,0 +1,16 @@
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\XML_Seralize_DeSerialize\XML_Seralize_DeSerialize\bin\Debug\XML_Seralize_DeSerialize.exe.config
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\XML_Seralize_DeSerialize\XML_Seralize_DeSerialize\bin\Debug\XML_Seralize_DeSerialize.exe
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\XML_Seralize_DeSerialize\XML_Seralize_DeSerialize\bin\Debug\XML_Seralize_DeSerialize.pdb
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\XML_Seralize_DeSerialize\XML_Seralize_DeSerialize\obj\Debug\XML_Seralize_DeSerialize.csprojResolveAssemblyReference.cache
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\XML_Seralize_DeSerialize\XML_Seralize_DeSerialize\obj\Debug\XML_Seralize_DeSerialize.Form1.resources
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\XML_Seralize_DeSerialize\XML_Seralize_DeSerialize\obj\Debug\XML_Seralize_DeSerialize.Properties.Resources.resources
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\XML_Seralize_DeSerialize\XML_Seralize_DeSerialize\obj\Debug\XML_Seralize_DeSerialize.csproj.GenerateResource.Cache
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\XML_Seralize_DeSerialize\XML_Seralize_DeSerialize\obj\Debug\XML_Seralize_DeSerialize.exe
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\XML_Seralize_DeSerialize\XML_Seralize_DeSerialize\obj\Debug\XML_Seralize_DeSerialize.pdb
+C:\Users\suleyman.avsar\Desktop\XML_Seralize_DeSerialize\XML_Seralize_DeSerialize\XML_Seralize_DeSerialize\bin\Debug\XML_Seralize_DeSerialize.exe.config
+C:\Users\suleyman.avsar\Desktop\XML_Seralize_DeSerialize\XML_Seralize_DeSerialize\XML_Seralize_DeSerialize\obj\Debug\XML_Seralize_DeSerialize.exe
+C:\Users\suleyman.avsar\Desktop\XML_Seralize_DeSerialize\XML_Seralize_DeSerialize\XML_Seralize_DeSerialize\obj\Debug\XML_Seralize_DeSerialize.pdb
+C:\Users\suleyman.avsar\Desktop\XML_Seralize_DeSerialize\XML_Seralize_DeSerialize\XML_Seralize_DeSerialize\obj\Debug\XML_Seralize_DeSerialize.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\XML_Seralize_DeSerialize\XML_Seralize_DeSerialize\XML_Seralize_DeSerialize\obj\Debug\XML_Seralize_DeSerialize.Form1.resources
+C:\Users\suleyman.avsar\Desktop\XML_Seralize_DeSerialize\XML_Seralize_DeSerialize\XML_Seralize_DeSerialize\obj\Debug\XML_Seralize_DeSerialize.Properties.Resources.resources
+C:\Users\suleyman.avsar\Desktop\XML_Seralize_DeSerialize\XML_Seralize_DeSerialize\XML_Seralize_DeSerialize\obj\Debug\XML_Seralize_DeSerialize.csproj.GenerateResource.Cache

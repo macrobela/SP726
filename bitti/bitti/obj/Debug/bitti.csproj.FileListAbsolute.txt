@@ -1,0 +1,6 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\bitti\bitti\bin\Debug\bitti.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\bitti\bitti\obj\Debug\bitti.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\bitti\bitti\bin\Debug\bitti.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\bitti\bitti\bin\Debug\bitti.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\bitti\bitti\obj\Debug\bitti.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\bitti\bitti\obj\Debug\bitti.pdb

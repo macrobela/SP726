@@ -1,0 +1,23 @@
+			//FileStream  StreamWriter
+            string DosyaYolu=" C:\\SULEYMAN\\SULOFileIO.txt";
+            FileStream fs = new FileStream(DosyaYolu,FileMode.Append,FileAccess.Write);
+            StreamWriter sw = new StreamWriter(fs,Encoding.Default);
+            //TRUNCATE DOSYADAKÝLERÝ SÝLER YAZILAN DEGERÝN YENÝLERÝNÝ YAZAR.
+            while (true)
+            {
+                Console.WriteLine("Yazi Giriniz :");
+                string yazi = Console.ReadLine();
+                if (yazi.ToLower()=="q")
+                {
+                    break;             
+                }
+                sw.WriteLine(yazi);
+            }
+            sw.WriteLine("Merhaba C#");
+            sw.WriteLine("Fenerbahçe");
+            sw.WriteLine("Sarýyer");
+            sw.Flush();//BELLEKTEKÝ VERÝYÝ DOSYAYA YAZ
+            sw.Close();//STREAMWRÝTER I KAPAT
+            sw.Flush();//BELLEKTEKÝ VERÝYÝ DOSYAYA YAZ
+            sw.Close();//STREAMWRÝTER I KAPAT
+            Console.ReadKey();

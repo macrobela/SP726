@@ -1,0 +1,15 @@
+Directory Sorusu:
+C:\22_01_2019 klasörü var mý kontrol edin. Yoksa oluþturun.
+(C:\ dizininde bugünün tarihi isimli bir klasör oluþturunuz.)
+Örnek : 22_01_2019 (string replace metodu ile "." => "_" olacak.
+Bu klasörün son yazýlma tarihini ekrana yazdýrýn.
+
+      DateTime dt = DateTime.Now;
+      Console.WriteLine(dt.ToShortDateString());
+      string date = dt.ToShortDateString()
+
+	date = date.Replace('.','_');
+string klasorYolu = "C:\\"+date;
+
+var mý klasorYolu 
+yoksa oluþtur

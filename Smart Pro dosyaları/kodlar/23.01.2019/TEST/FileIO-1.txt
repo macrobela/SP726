@@ -1,0 +1,75 @@
+using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FileIO
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+
+      string klasorAdi = "ProjeDosyalari";
+      string klasorAdi2 = @"C:\FileIO";
+
+      //Console.WriteLine(Directory.GetCurrentDirectory());
+
+      //Directory.CreateDirectory(klasorAdi);
+      //Directory.CreateDirectory(klasorAdi2);
+      //Console.Write("C:\\FileIO oluþturulma tarihi : " );
+      //Console.WriteLine(Directory.GetCreationTime(klasorAdi2));
+
+
+      //Directory.Delete(klasorAdi2,true);
+
+
+
+
+      //bool klasorVarMi = Directory.Exists(klasorAdi2);
+      //if (klasorVarMi)
+      //{
+      //  Console.WriteLine("Klasör Mevcut.");
+
+      //}
+      //else
+      //{
+      //  Console.Write("Klasör Yok.");
+      //  Directory.CreateDirectory(klasorAdi2);
+      //  Console.WriteLine("Klasör Oluþturuldu.");
+      //}
+
+      //string yolC = @"C:\";
+
+      //string[] CdekiKlasorler = Directory.GetDirectories(yolC);
+
+      //foreach (var item in CdekiKlasorler)
+      //{
+      //  Console.WriteLine(item);
+      //}
+
+      //string[] CdekiDosyalar = Directory.GetFiles(yolC);
+      //string[] CdekiDosyalar = Directory.GetFiles(yolC, "*.sys"); // Uzantý Filtreleme
+      //foreach (var item in CdekiDosyalar)
+      //{
+      //  Console.WriteLine(item);
+      //}
+
+
+
+      string yolC = @"D:\";
+      string[] dosyaVeKlasorler = Directory.GetFileSystemEntries(yolC);
+      foreach (var item in dosyaVeKlasorler)
+      {
+        Console.WriteLine(item);
+      }
+
+
+
+
+      Console.ReadKey();
+    }
+  }
+}

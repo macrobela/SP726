@@ -1,0 +1,200 @@
+using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Collections;
+using System.Threading.Tasks;
+
+namespace FileIO
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      // DIRECTORY************************************************************************************
+
+      string dizin1 = @"C:\Users\Portret\Documents\Visual Studio 2015\Projects\FileIO\FileIO\KLASOR";
+      if (!Directory.Exists(dizin1))  //klasör var mý kontrolü
+      {
+        Directory.CreateDirectory(dizin1);  //klasör oluþturma
+      }
+      //Directory.Delete(dizin1);   //klasör silme
+      DateTime olusutulmaTarihi = Directory.GetCreationTime(dizin1);
+      Console.WriteLine(olusutulmaTarihi);
+      Console.WriteLine(Directory.GetCurrentDirectory());
+
+      string yol = @"C:\Users\Portret\Documents\Visual Studio 2015\Projects\FileIO\FileIO";
+
+      string[] klasorler = Directory.GetDirectories(yol); //Belirtilen yoldaki klasörlerin listesi
+
+      foreach (var item in klasorler)
+      {
+        Console.WriteLine(item);
+      }
+
+      Console.WriteLine(Directory.GetDirectoryRoot(dizin1));  //Kök Dizin
+      Console.WriteLine();
+      string[] dosyalar = Directory.GetFiles(yol);
+      foreach (var item in dosyalar)
+      {
+        Console.WriteLine(item);
+      }
+      Console.WriteLine();
+      string[] dosyavedizinler = Directory.GetFileSystemEntries(yol);
+      foreach (var item in dosyavedizinler)
+      {
+        Console.WriteLine(item);
+      }
+      Console.WriteLine();
+
+
+      DateTime sonerisim = Directory.GetLastAccessTime(yol);
+      Console.WriteLine(sonerisim);
+
+      DateTime sonyazma = Directory.GetLastWriteTime(yol);
+      Console.WriteLine(sonyazma);
+      Console.WriteLine();
+      foreach (var item in Directory.GetLogicalDrives())
+      {
+        Console.WriteLine(item);
+      }
+
+      Console.WriteLine();
+      Console.WriteLine(Directory.GetParent(yol));    //Bir üst klasörü döndürür.
+      string dizin1 = @"C:\Users\Portret\Documents\Visual Studio 2015\Projects\FileIO\FileIO\KLASOR";
+      //string kaynakDosya = "C:\\Users\\Portret\\Documents\\Visual Studio 2015\\Projects\\FileIO\\FileIO\\Dizin2"; //Kaynak ve hedef dizin !!
+      string hedefDosya = @"C:\Users\Portret\Documents\Visual Studio 2015\Projects\FileIO\KLASOR"; //hedefin oluþturulmamýþ olmasý lazým
+      Directory.CreateDirectory(dizin1);
+      if (Directory.Exists(dizin1))
+      {
+        Console.WriteLine("Dosya var");
+        Directory.Move(dizin1, hedefDosya);
+      }
+      DateTime bugun = DateTime.Now;
+      Directory.SetLastAccessTime(dizin1, bugun); // Son eriþim zamanýný deðiþtir.
+      Directory.SetLastWriteTime(dizin1, bugun); // Son yazma zamanýný deðiþtir.
+      Directory.SetCreationTime(dizin1, bugun); // Oluþturulma zamanýný deðiþtir.
+
+      Directory.SetCurrentDirectory(dizin1);  // Programýn çalýþtýðý dizini deðiþtir.
+
+      // FILE ************************************************************************
+
+      /*
+       * Aþaðýdaki metotlar Directory sýnýfý ile ayný.
+       * Exists(), 
+       * Delete(), 
+       * GetCreationTime(), 
+       * GetLastAccessTime(), 
+       * GetLastWriteTime(), 
+       * Move(), 
+       * SetCreationTime(), 
+       * SetLastAccessTime(), 
+       * SetLastWriteTime()
+       */
+      string yol = @"C:\Users\Portret\Documents\Visual Studio 2015\Projects\FileIO\KLASOR\";
+      string[] dosyalar = Directory.GetFiles(yol);
+      foreach (var item in dosyalar)
+      {
+        Console.WriteLine(item);
+        //}
+        string adres = @"C:\Users\Portret\Documents\Visual Studio 2015\Projects\FileIO\KLASOR\fff.txt.txt";
+        string hedef = @"C:\Users\Portret\Documents\Visual Studio 2015\Projects\FileIO\FileIO\CCC.xt";
+        StreamWriter AppendText;
+        File.Copy(adres, hedef, false); // bool true ise üzerine yazabilir.
+
+        File.GetAttributes(adres);
+        StreamWriter st = File.AppendText(adres);
+        Console.WriteLine(File.GetAttributes(adres));
+        Console.WriteLine(File.GetAttributes(yol));
+
+        // FILESTREAM *******************************************************
+
+        ////BYTE tipinde okuma.
+        FileStream fs = new FileStream(hedef, FileMode.Open);
+      int OkunanByte;
+
+      while ((OkunanByte = fs.ReadByte()) != -1)
+      {
+        Console.Write((char)OkunanByte);
+      }
+      ////-------------------
+
+      // StreamReader ******************************************************************************
+      string dosya = @"C:\Users\Portret\Documents\Visual Studio 2015\Projects\FileIO\FileIO\CCC.xt";
+
+      FileStream fs = new FileStream(dosya, FileMode.Open);
+      StreamReader sr = new StreamReader(fs, Encoding.GetEncoding("windows-1254"));
+      string satir;
+      int i = 1;
+      while ((satir = sr.ReadLine()) != null)
+      {
+        Console.WriteLine($"Satýr {i} : " + satir);
+        i++;
+      }
+      fs.Close();
+      //********************************************************************************************
+
+      // StreamWriter ******************************************************************************
+      string dosya = @"C:\Users\Portret\Documents\Visual Studio 2015\Projects\FileIO\FileIO\Deneme.xt";
+
+      FileStream fs = new FileStream(dosya, FileMode.Append, FileAccess.Write);
+      StreamWriter sw = new StreamWriter(fs, Encoding.GetEncoding("windows-1254"));
+
+      while (true)
+      {
+        Console.Write("Yazý giriniz : ");
+        string yazi = Console.ReadLine();
+        if (yazi.ToLower() == "q")
+        {
+          break;
+        }
+        sw.WriteLine(yazi);
+      }
+      sw.Flush();
+      sw.Close();
+      //**********************************************************************************************
+
+      // Örnek : Dizi Elemanlarýný Düzenli olarak dosyaya yazdýrma.
+
+      ArrayList ogrenciler = new ArrayList();
+
+      ogrenciler.Add(432);
+      ogrenciler.Add("Serhat DEMÝR");
+      ogrenciler.Add(95);
+      ogrenciler.Add(95);
+
+      ogrenciler.Add(444);
+      ogrenciler.Add("Mahir DEMÝR");
+      ogrenciler.Add(100);
+      ogrenciler.Add(95);
+
+      ogrenciler.Add(442);
+      ogrenciler.Add("Mehmet ÇELÝK");
+      ogrenciler.Add(45);
+      ogrenciler.Add(45);
+
+      ogrenciler.Add(455);
+      ogrenciler.Add("Mehmet BAKIR");
+      ogrenciler.Add(15);
+      ogrenciler.Add(95);
+      string dosya = @"C:\Users\Portret\Documents\Visual Studio 2015\Projects\FileIO\FileIO\OgrenNotlari.txt";
+
+      FileStream fs = new FileStream(dosya, FileMode.Append, FileAccess.Write);
+      StreamWriter sw = new StreamWriter(fs, Encoding.GetEncoding("windows-1254"));
+
+      for (int i = 0; i < ogrenciler.Count; i += 4)
+      {
+        sw.WriteLine($"Numara : {ogrenciler[i]}   Ad Soyad : {ogrenciler[i + 1]} 1.Not : {ogrenciler[i + 2]}  2.Not : {ogrenciler[i + 3]}");
+      }
+      sw.Flush();
+      sw.Close();
+      Console.WriteLine("Yazma Ýþlemi Tamamlandý. Kapatmak için bir tuþa basýnýz.");
+
+      //**********************************************************************
+
+      
+      Console.ReadKey();
+    }
+  }
+}

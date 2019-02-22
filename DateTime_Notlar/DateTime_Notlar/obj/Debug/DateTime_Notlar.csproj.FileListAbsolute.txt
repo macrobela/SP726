@@ -1,0 +1,6 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\DateTime_Notlar\DateTime_Notlar\bin\Debug\DateTime_Notlar.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\DateTime_Notlar\DateTime_Notlar\bin\Debug\DateTime_Notlar.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\DateTime_Notlar\DateTime_Notlar\bin\Debug\DateTime_Notlar.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\DateTime_Notlar\DateTime_Notlar\obj\Debug\DateTime_Notlar.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\DateTime_Notlar\DateTime_Notlar\obj\Debug\DateTime_Notlar.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\DateTime_Notlar\DateTime_Notlar\obj\Debug\DateTime_Notlar.pdb

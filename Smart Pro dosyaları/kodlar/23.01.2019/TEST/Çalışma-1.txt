@@ -1,0 +1,52 @@
+Bro Burger franchaise sistemi yönetim programý
+----------------------------------------------------------------------
+Interface: ISahipBilgiler
+------------------------------
+Sahibi,
+VergiNumarasi,
+
+SahipKaydet(string dosyaYolu);	Yukarýdaki 2 bilgiyi isteyip kaydedeceðiz(dosyaya da).
+SahipDeðiþtir(string sahip);	
+
+Interface: IDukkanBilgiler
+---------------------------------
+Adi, ID,Ülke,Þehir,Ýlçe,Adres
+
+DukkanKaydet();	Yukarýdaki bilgileri isteyip kaydedecek.(dosyaya da).
+
+Class: BroBurger
+----------------------
+BilgiYaz();		Dükkana ait tüm bilgileri listeleyecek.
+
+
+
+Sahibi	Vergi Numarasý	ID	Adý 	Ülke	Þehir	Ýlçe
+\\11.11.0.13\filenotlar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+UML Diyagramlarý

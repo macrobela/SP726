@@ -1,0 +1,11 @@
+--saro --Her utune ait su bilgileri istiyorum
+--Ürün Adi,
+-- Tedarikçinin Adi,
+--Tedarikçisinin ilgili kiþisi,
+--Tedarikcinin Telefonu,
+
+
+use NORTHWND
+select ProductName,CompanyName,ContactName,Phone
+from Products
+INNER JOIN Suppliers ON Products.SupplierID=Suppliers.SupplierID

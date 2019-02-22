@@ -1,0 +1,12 @@
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\XML1\XML1\bin\Debug\XML1.exe.config
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\XML1\XML1\bin\Debug\XML1.exe
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\XML1\XML1\bin\Debug\XML1.pdb
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\XML1\XML1\obj\Debug\XML1.csprojResolveAssemblyReference.cache
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\XML1\XML1\obj\Debug\XML1.Form1.resources
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\XML1\XML1\obj\Debug\XML1.Properties.Resources.resources
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\XML1\XML1\obj\Debug\XML1.csproj.GenerateResource.Cache
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\XML1\XML1\obj\Debug\XML1.exe
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\XML1\XML1\obj\Debug\XML1.pdb
+C:\Users\suleyman.avsar\Desktop\XML1\XML1\XML1\bin\Debug\XML1.exe.config
+C:\Users\suleyman.avsar\Desktop\XML1\XML1\XML1\obj\Debug\XML1.exe
+C:\Users\suleyman.avsar\Desktop\XML1\XML1\XML1\obj\Debug\XML1.pdb

@@ -1,0 +1,9 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Form1.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Properties.Resources.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csproj.GenerateResource.Cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.pdb

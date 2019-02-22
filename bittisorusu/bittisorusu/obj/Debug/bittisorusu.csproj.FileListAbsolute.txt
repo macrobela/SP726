@@ -1,0 +1,6 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\bittisorusu\bittisorusu\bin\Debug\bittisorusu.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\bittisorusu\bittisorusu\obj\Debug\bittisorusu.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\bittisorusu\bittisorusu\bin\Debug\bittisorusu.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\bittisorusu\bittisorusu\bin\Debug\bittisorusu.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\bittisorusu\bittisorusu\obj\Debug\bittisorusu.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\bittisorusu\bittisorusu\obj\Debug\bittisorusu.pdb

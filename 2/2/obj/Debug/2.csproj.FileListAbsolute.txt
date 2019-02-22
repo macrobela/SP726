@@ -1,0 +1,9 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\2\2\bin\Debug\2.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\2\2\obj\Debug\2.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\2\2\obj\Debug\_2.Form1.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\2\2\obj\Debug\_2.Properties.Resources.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\2\2\obj\Debug\2.csproj.GenerateResource.Cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\2\2\bin\Debug\2.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\2\2\bin\Debug\2.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\2\2\obj\Debug\2.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\2\2\obj\Debug\2.pdb

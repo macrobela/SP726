@@ -1,0 +1,9 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\kaydet_load\bin\Debug\kaydet_load.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\kaydet_load\bin\Debug\kaydet_load.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\kaydet_load\bin\Debug\kaydet_load.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\kaydet_load\obj\Debug\kaydet_load.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\kaydet_load\obj\Debug\kaydet_load.Form1.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\kaydet_load\obj\Debug\kaydet_load.Properties.Resources.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\kaydet_load\obj\Debug\kaydet_load.csproj.GenerateResource.Cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\kaydet_load\obj\Debug\kaydet_load.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\kaydet_load\obj\Debug\kaydet_load.pdb

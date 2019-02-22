@@ -1,0 +1,5 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ODEV-3\ODEV3_IS\bin\Debug\ODEV3_IS.dll
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ODEV-3\ODEV3_IS\bin\Debug\ODEV3_IS.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ODEV-3\ODEV3_IS\obj\Debug\ODEV3_IS.dll
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ODEV-3\ODEV3_IS\obj\Debug\ODEV3_IS.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ODEV-3\ODEV3_IS\obj\Debug\ODEV3_IS.csprojResolveAssemblyReference.cache

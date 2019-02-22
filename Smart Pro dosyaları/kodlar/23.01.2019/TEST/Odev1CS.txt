@@ -1,0 +1,97 @@
+using System;
+using System.Collections;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Odev1
+{
+  class Personel
+  {
+    private int PersonelID;
+    private string PersonelAdi;
+    private string PersonelSoyadi;
+
+    private double PersonelBrutMaas;
+    public double PersonelNetMaas
+    {
+      get { return PersonelBrutMaas; }
+      set
+      {
+        PersonelBrutMaas = (value * 1.60);
+      }
+    }
+
+    public ArrayList YeniKayit(ArrayList AListPersonelBilgi)
+    {
+      AListPersonelBilgi[0] = (int)AListPersonelBilgi[0] + 1;
+      PersonelID = (int)AListPersonelBilgi[0];
+      AListPersonelBilgi.Add(PersonelID);
+
+      Console.Write("Ad Soyad Giriniz: ");
+      string adSoyad = Console.ReadLine();
+      string[] adSoyadDizi = adSoyad.Split();
+      PersonelAdi = adSoyadDizi[0];
+      PersonelSoyadi = adSoyadDizi[1];
+
+      AListPersonelBilgi.Add(PersonelAdi);
+      AListPersonelBilgi.Add(PersonelSoyadi);
+
+
+      Console.Write("Net Maaþ Giriniz: ");
+      PersonelNetMaas = Convert.ToDouble(Console.ReadLine());
+      AListPersonelBilgi.Add(PersonelBrutMaas);
+
+      return AListPersonelBilgi;
+    }
+    public static void KayitListele(ArrayList AListPersonelBilgi)
+    {
+
+      int personelSayisi = (int)AListPersonelBilgi[0];
+
+      for (int i = 1; i < AListPersonelBilgi.Count; i = i + 4)
+      {
+        Console.Write(AListPersonelBilgi[i].ToString().PadRight(15));
+        Console.Write(AListPersonelBilgi[i + 1].ToString().PadRight(8));
+        Console.Write(AListPersonelBilgi[i + 2].ToString().PadRight(7).ToUpper());
+        Console.WriteLine(AListPersonelBilgi[i + 3].ToString().PadRight(15));
+      }
+    }
+    public double DoubleToplam(short a, short b, short c)
+    {
+      double toplam = 0;
+      toplam = a + b + c;
+
+      return toplam;
+    }
+
+
+  }
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      ArrayList AListPersonelBilgi = new ArrayList();
+      AListPersonelBilgi.Add(0);
+
+      //Kayýt Ekleme Bölümü
+      Personel p1 = new Personel();
+      p1.YeniKayit(AListPersonelBilgi);
+      Personel p2 = new Personel();
+      p2.YeniKayit(AListPersonelBilgi);
+
+      //Listeleme Bölümü
+      Console.Write("Personel ID".PadRight(15));
+      Console.Write("Personel Adý".PadRight(15));
+      Console.WriteLine("Personel BrütMaaþý(TL)".PadRight(10));
+      Personel.KayitListele(AListPersonelBilgi);
+
+      //Toplama Sorusu
+      Console.WriteLine("Toplama Sorusu: " + p2.DoubleToplam(45, 33, 21));
+
+      Console.ReadKey();
+
+
+    }
+  }
+}

@@ -1,0 +1,5 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\Rastgele\Rastgele\bin\Debug\Rastgele.dll
+C:\Users\suleyman.avsar\Desktop\console.uygulama\Rastgele\Rastgele\bin\Debug\Rastgele.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\Rastgele\Rastgele\obj\Debug\Rastgele.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\Rastgele\Rastgele\obj\Debug\Rastgele.dll
+C:\Users\suleyman.avsar\Desktop\console.uygulama\Rastgele\Rastgele\obj\Debug\Rastgele.pdb

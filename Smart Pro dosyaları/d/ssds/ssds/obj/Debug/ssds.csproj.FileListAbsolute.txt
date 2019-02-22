@@ -1,0 +1,13 @@
+C:\Users\suleyman.avsar\Desktop\ssds\ssds\bin\Debug\ssds.exe.config
+C:\Users\suleyman.avsar\Desktop\ssds\ssds\bin\Debug\ssds.exe
+C:\Users\suleyman.avsar\Desktop\ssds\ssds\bin\Debug\ssds.pdb
+C:\Users\suleyman.avsar\Desktop\ssds\ssds\bin\Debug\EntityFramework.dll
+C:\Users\suleyman.avsar\Desktop\ssds\ssds\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\suleyman.avsar\Desktop\ssds\ssds\bin\Debug\EntityFramework.xml
+C:\Users\suleyman.avsar\Desktop\ssds\ssds\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\suleyman.avsar\Desktop\ssds\ssds\obj\Debug\ssds.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\ssds\ssds\obj\Debug\ssds.Form1.resources
+C:\Users\suleyman.avsar\Desktop\ssds\ssds\obj\Debug\ssds.Properties.Resources.resources
+C:\Users\suleyman.avsar\Desktop\ssds\ssds\obj\Debug\ssds.csproj.GenerateResource.Cache
+C:\Users\suleyman.avsar\Desktop\ssds\ssds\obj\Debug\ssds.exe
+C:\Users\suleyman.avsar\Desktop\ssds\ssds\obj\Debug\ssds.pdb

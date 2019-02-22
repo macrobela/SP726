@@ -1,0 +1,6 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\metodlar\metodlar\bin\Debug\metodlar.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\metodlar\metodlar\bin\Debug\metodlar.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\metodlar\metodlar\bin\Debug\metodlar.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\metodlar\metodlar\obj\Debug\metodlar.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\metodlar\metodlar\obj\Debug\metodlar.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\metodlar\metodlar\obj\Debug\metodlar.pdb

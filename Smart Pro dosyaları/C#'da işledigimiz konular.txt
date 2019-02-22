@@ -1,0 +1,45 @@
+C# Consol
+Matematiksel Metotlar 
+C#
+C# Forms uygulamalarý
+Ado.Net
+ORM C# baglama
+SQL orm baglama
+SQL 
+Entity Framework
+Generic Sinifi olusturma
+Veritabaný baðlama
+try catch baglama
+katmansal mimariye uygun sekilde yapýlým -
+  - ORM sekilde
+XML
+XML_Serialize
+XML_Serialize DeSerialize
+
+LÝNQ C# windows forms
+	-Ekleme
+	-Güncelleme
+	-Listele
+	-Silme
+
+Linq ile xml gösterme
+linq sql gösterme
+linq ile create procedure gösterme
+linq datasource olusturma
+
+entity Fremework
+	-Ekleme
+	-Güncelleme
+	-Listeleme
+	-En cok kullanan kýsmý "Db First , Code First" kýsmý
+
+
+
+
+
+
+
+
+
+
+

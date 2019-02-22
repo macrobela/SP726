@@ -1,0 +1,37 @@
+--select count (CustomerID),Country
+--From Customers
+--GROUP BY Country--HAnGÝ ÜLKEDEN KAÇ TANE CUSTOMER (MÜÞTERÝ) OLDUGUNU SORGULADIK.
+--HAVING count(CustomerID)>5 --Kosul ekledik where ile yapýldýgýnda hata verdi
+
+--use NORTHWND
+--select Shippers.ShipperName,COUNT(Orders.OrderID) As NumberOfOrders From Orders
+--Left Join Shippers ON Orders.ShipVia=Shippers.ShipperID
+--Group by CompanyName;
+
+--select * 
+--from Customers
+
+
+--use NORTHWND
+
+--select COUNT(*) as KategoridekiUrunAdi,CategoryID
+--from Products
+--group by CategoryID
+
+-- Soru 2--Hangi kategoride toplam ne kadar stok var???
+--use NORTHWND
+--select SUM(UnitsInStock) as KategoridekiToplamUrun,CategoryID
+--from Products
+--group by CategoryID
+
+
+--hangi ülkeden 5 den fazla müsteri var 5 ten fazla müþteri olan ülkeleri listeleyin
+
+--use NORTHWND
+-- select COUNT(CustomerID),Country from Customers
+-- group by Country
+-- having COUNT(CustomerID)>5;
+
+ --stokta hangi kategoriden kaç dolarlýk bir ürün girmiþ
+
+

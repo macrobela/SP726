@@ -1,0 +1,6 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\katılım_polimorfom\katılım_polimorfom\bin\Debug\katılım_polimorfom.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\katılım_polimorfom\katılım_polimorfom\bin\Debug\katılım_polimorfom.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\katılım_polimorfom\katılım_polimorfom\bin\Debug\katılım_polimorfom.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\katılım_polimorfom\katılım_polimorfom\obj\Debug\katılım_polimorfom.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\katılım_polimorfom\katılım_polimorfom\obj\Debug\katılım_polimorfom.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\katılım_polimorfom\katılım_polimorfom\obj\Debug\katılım_polimorfom.csprojResolveAssemblyReference.cache

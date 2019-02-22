@@ -1,0 +1,35 @@
+soru://Dosyadaki bilgileri satýr satýr oku.
+
+
+
+string DosyaYolu = "C:\\SULEYMAN\\SULOFileIO.txt";
+            FileStream fsa = new FileStream(DosyaYolu, FileMode.Open);
+            StreamReader sr = new StreamReader(fsa);
+            string satir;
+            int i = 1;
+            while ((satir = sr.ReadLine()) != null)  //Dosyadaki bilgileri satýr satýr oku.
+            {
+                Console.WriteLine($"Satir {i} :" + satir);
+            }
+            fsa.Close();
+
+            Console.ReadLine();
+
+
+
+-----------------------------------------------------------------------------------------
+daha dogrusu
+
+
+            string DosyaYolu = "C:\\SULEYMAN\\SULOFileIO.txt";
+            FileStream fsa = new FileStream(DosyaYolu, FileMode.Open);
+            StreamReader sr = new StreamReader(fsa, Encoding.GetEncoding("windows-1254"));
+            string satir;
+            int i = 1;
+            while ((satir = sr.ReadLine()) != null)  //Dosyadaki bilgileri satýr satýr oku.
+            {
+                Console.WriteLine($"Satir {i} :" + satir);
+            }
+            fsa.Close();
+
+            Console.ReadLine();

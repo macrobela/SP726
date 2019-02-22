@@ -1,0 +1,7 @@
+DNS Kayýtlarý
+--------------------
+"A" kaydý isim karsýlýgýnda tip
+"MX" kaydý isim karsýlýgýnda mail sunucusu
+"CNAME" ÝSÝM KARÞILIGINDA ÝSÝM
+"AAAA" ipV6 adresi
+"NS"  Name Server (DNS Ýsim Çözümleme) 

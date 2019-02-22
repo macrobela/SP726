@@ -1,0 +1,13 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ENTİTY FRAMEWORK\ENTİTY FRAMEWORK\bin\Debug\ENTİTY FRAMEWORK.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ENTİTY FRAMEWORK\ENTİTY FRAMEWORK\obj\Debug\ENTİTY FRAMEWORK.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ENTİTY FRAMEWORK\ENTİTY FRAMEWORK\obj\Debug\ENTİTY_FRAMEWORK.Form1.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ENTİTY FRAMEWORK\ENTİTY FRAMEWORK\obj\Debug\ENTİTY_FRAMEWORK.Properties.Resources.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ENTİTY FRAMEWORK\ENTİTY FRAMEWORK\obj\Debug\ENTİTY FRAMEWORK.csproj.GenerateResource.Cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ENTİTY FRAMEWORK\ENTİTY FRAMEWORK\bin\Debug\ENTİTY FRAMEWORK.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ENTİTY FRAMEWORK\ENTİTY FRAMEWORK\bin\Debug\ENTİTY FRAMEWORK.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ENTİTY FRAMEWORK\ENTİTY FRAMEWORK\bin\Debug\EntityFramework.dll
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ENTİTY FRAMEWORK\ENTİTY FRAMEWORK\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ENTİTY FRAMEWORK\ENTİTY FRAMEWORK\bin\Debug\EntityFramework.xml
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ENTİTY FRAMEWORK\ENTİTY FRAMEWORK\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ENTİTY FRAMEWORK\ENTİTY FRAMEWORK\obj\Debug\ENTİTY FRAMEWORK.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ENTİTY FRAMEWORK\ENTİTY FRAMEWORK\obj\Debug\ENTİTY FRAMEWORK.pdb

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="sinema" Class="sinemaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-1I2UQ7S\SA;Initial Catalog=sinema;User ID=sa" SettingsObjectName="sinema.Properties.Settings" SettingsPropertyName="sinemaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Salon" Member="Salons">
+    <Type Name="Salon">
+      <Column Name="SalonID" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SalonAdi" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Salon_FilmYayin" Member="FilmYayins" ThisKey="SalonID" OtherKey="SalonID" Type="FilmYayin" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FilmYayin" Member="FilmYayins">
+    <Type Name="FilmYayin">
+      <Column Name="FYID" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FilmID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SalonID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="FYZaman" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Salon_FilmYayin" Member="Salon" ThisKey="SalonID" OtherKey="SalonID" Type="Salon" IsForeignKey="true" />
+      <Association Name="Film_FilmYayin" Member="Film" ThisKey="FilmID" OtherKey="FilmID" Type="Film" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Film" Member="Films">
+    <Type Name="Film">
+      <Column Name="FilmID" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FilmAdi" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Film_FilmYayin" Member="FilmYayins" ThisKey="FilmID" OtherKey="FilmID" Type="FilmYayin" />
+    </Type>
+  </Table>
+</Database>

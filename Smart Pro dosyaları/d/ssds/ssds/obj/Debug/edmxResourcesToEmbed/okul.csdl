@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OKUL_VTModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="OKUL_VTEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ders">
+      <Parameter Name="dersadi" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_derskaydet">
+      <Parameter Name="dersadi" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(OKUL_VTModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(OKUL_VTModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_kaydet">
+      <Parameter Name="Not1" Mode="In" Type="Int16" />
+      <Parameter Name="Not2" Mode="In" Type="Int16" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ogrenci_listele" ReturnType="Collection(OKUL_VTModel.sp_ogrenci_listele_Result)" />
+    <FunctionImport Name="sp_ogrencikaydet">
+      <Parameter Name="ogrenciAdi" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ogretmenkaydet">
+      <Parameter Name="ogretmenadi" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <EntitySet Name="Derslers" EntityType="OKUL_VTModel.Dersler" />
+    <EntitySet Name="notlarrs" EntityType="OKUL_VTModel.notlarr" />
+    <EntitySet Name="Ogrencilers" EntityType="OKUL_VTModel.Ogrenciler" />
+    <EntitySet Name="Ogretmenlers" EntityType="OKUL_VTModel.Ogretmenler" />
+    <EntitySet Name="sysdiagrams" EntityType="OKUL_VTModel.sysdiagram" />
+    <EntitySet Name="Table_1" EntityType="OKUL_VTModel.Table_1" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_ogrenci_listele_Result">
+    <Property Type="Int16" Name="OgrenciID" Nullable="false" />
+    <Property Type="String" Name="OgrenciAdi" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="Mezun" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="Dersler">
+    <Key>
+      <PropertyRef Name="DersID" />
+    </Key>
+    <Property Name="DersID" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DersAdi" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="notlarr">
+    <Key>
+      <PropertyRef Name="NotID" />
+    </Key>
+    <Property Name="NotID" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Not1" Type="Int16" Nullable="false" />
+    <Property Name="Not2" Type="Int16" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ogrenciler">
+    <Key>
+      <PropertyRef Name="OgrenciID" />
+    </Key>
+    <Property Name="OgrenciID" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OgrenciAdi" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Mezun" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ogretmenler">
+    <Key>
+      <PropertyRef Name="OgretmenID" />
+    </Key>
+    <Property Name="OgretmenID" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OgretmenAdi" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AktifCalisan" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Table_1">
+    <Key>
+      <PropertyRef Name="OgretmenID" />
+      <PropertyRef Name="OgretmenAdi" />
+      <PropertyRef Name="AktifCalisan" />
+    </Key>
+    <Property Name="OgretmenID" Type="Int32" Nullable="false" />
+    <Property Name="OgretmenAdi" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AktifCalisan" Type="Int32" Nullable="false" />
+  </EntityType>
+</Schema>

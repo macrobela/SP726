@@ -1,0 +1,15 @@
+alter trigger silinenveriler
+on Ogretmenler
+after delete
+as
+declare @OgretmenID int
+declare @OgretmenAdi nvarchar(50)
+declare @AktifCalisan int
+
+select @OgretmenID=OgretmenID from deleted
+select @OgretmenAdi=OgretmenAdi from deleted
+select @AktifCalisan=AktifCalisan from deleted
+
+insert into Table_1 values (@OgretmenID,@OgretmenAdi,@AktifCalisan)
+
+delete from Ogretmenler where OgretmenID=4

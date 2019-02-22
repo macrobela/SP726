@@ -1,0 +1,9 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\XML1\XML1\bin\Debug\XML1.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\XML1\XML1\bin\Debug\XML1.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\XML1\XML1\bin\Debug\XML1.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\XML1\XML1\obj\Debug\XML1.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\XML1\XML1\obj\Debug\XML1.Form1.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\XML1\XML1\obj\Debug\XML1.Properties.Resources.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\XML1\XML1\obj\Debug\XML1.csproj.GenerateResource.Cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\XML1\XML1\obj\Debug\XML1.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\XML1\XML1\obj\Debug\XML1.pdb

@@ -1,0 +1,9 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\sinema23\sinema23\bin\Debug\sinema23.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\sinema23\sinema23\bin\Debug\sinema23.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\sinema23\sinema23\bin\Debug\sinema23.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\sinema23\sinema23\obj\Debug\sinema23.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\sinema23\sinema23\obj\Debug\sinema23.Form1.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\sinema23\sinema23\obj\Debug\sinema23.Properties.Resources.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\sinema23\sinema23\obj\Debug\sinema23.csproj.GenerateResource.Cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\sinema23\sinema23\obj\Debug\sinema23.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\sinema23\sinema23\obj\Debug\sinema23.pdb

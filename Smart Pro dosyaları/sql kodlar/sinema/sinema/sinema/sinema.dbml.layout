@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="sinema">
+  <DataContextMoniker Name="/sinemaDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a0eaa1ee-2cae-486a-b5a6-15563e9e94ef" absoluteBounds="0.5, 0.5, 2, 1.1939925130208338">
+      <DataClassMoniker Name="/sinemaDataContext/Salon" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4322c02b-cb3a-4d27-8164-e07af9c37f8c" absoluteBounds="0.515, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="07b0491e-5f5b-433d-a397-7777b696acf6" absoluteBounds="3.375, 0.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/sinemaDataContext/FilmYayin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b3884a09-fbe2-4222-b06a-6c680011912c" absoluteBounds="3.39, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="728e39da-4060-4eea-9c2c-cbb866177144" absoluteBounds="0.5, 2.125, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/sinemaDataContext/Film" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6f86d0fe-2cc3-4491-8e77-16eeb7b964f9" absoluteBounds="0.515, 2.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 1.09699625651042); (3.375 : 1.09699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/sinemaDataContext/Salon/Salon_FilmYayin" />
+      <nodes>
+        <classShapeMoniker Id="a0eaa1ee-2cae-486a-b5a6-15563e9e94ef" />
+        <classShapeMoniker Id="07b0491e-5f5b-433d-a397-7777b696acf6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5 : 2.72199625651042); (4.375 : 2.72199625651042); (4.375 : 2.07859537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/sinemaDataContext/Film/Film_FilmYayin" />
+      <nodes>
+        <classShapeMoniker Id="728e39da-4060-4eea-9c2c-cbb866177144" />
+        <classShapeMoniker Id="07b0491e-5f5b-433d-a397-7777b696acf6" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

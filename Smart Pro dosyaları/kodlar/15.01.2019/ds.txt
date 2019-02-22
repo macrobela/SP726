@@ -1,0 +1,165 @@
+ 	public string OgrenciAdi;
+        public string OgrenciNumarasi;
+        public string Not1;
+        public string Not2;
+        public string ToplamOgrenciSayisi;
+
+
+public static void KayitEkle(ArrayList aList)
+        {
+            for (int i = 0; i < aList.Count - 1; i = i + 2)
+            {
+                Console.WriteLine("OgrenciAdi : " + aList[i]);
+                Console.WriteLine("OgrenciNumarasi : " + aList[i + 1]);
+                Console.WriteLine("OgrenciSinifi : " + aList[i + 1]);
+                Console.WriteLine("Not1 : " + aList[i + 1]);
+                Console.WriteLine("Not2 : " + aList[i + 1]);
+                Console.WriteLine("ToplamOgrenciSayisi : " + aList[i + 1]);
+            }
+
+
+-------------------------------------------------------------------------------------------------
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication71
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int ogrenciAdedi = 0;
+
+            while (true)
+            {
+                Console.Write("KAÇ PERSONEL KAYDI GÝRÝLECEK : ");
+                ogrenciAdedi = Convert.ToInt32(Console.ReadLine());
+                if (ogrenciAdedi > 0)
+                {
+                    break;
+                }
+            }
+            ArrayList aList = new ArrayList();
+
+
+            Ogrenci s1 = new Ogrenci();
+            Console.WriteLine("Adinizi Giriniz :");
+            s1.OgrenciAdi = Console.ReadLine();
+            aList.Add(s1.OgrenciAdi);
+
+
+            Ogrenci s2 = new Ogrenci();
+            Console.WriteLine("Ogrenci Numarasý");
+            s2.OgrenciNumarasi = Console.ReadLine();
+            aList.Add(s2.OgrenciNumarasi);
+
+            Ogrenci s = new Ogrenci();
+            Console.WriteLine("Ogrencinin 1 Notunu Giriniz :");
+            s.Not1 = Console.ReadLine();
+
+            Console.WriteLine("Ogrencinin 2 Notunu Giriniz: ");
+            s.Not2 = Console.ReadLine();
+            aList.Add(s.Not1);
+            aList.Add(s.Not2);
+
+
+            Ogrenci.KayitEkle(aList);
+
+            Console.WriteLine($"Okulun Ortalamasý :{ogrenciAdedi/2}" );
+              
+            Console.ReadKey();
+
+        }
+    }
+}
+
+                                                                    AYRI
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace NestedClass
+{
+    class Ogretmen
+    {
+        public string OgretmenAdiSoyadi;
+        public string OgretmenYasi;
+
+        public Sinif _yasBilgisi;
+
+        public Ogretmen()
+        {
+            _yasBilgisi = new Sinif();
+        }
+
+
+
+        // Yukarýdaki nesne tanýmlama sayesinde
+        // YasBilgisi sýnýfýnýn üyelerine bu sýnýf nesnesi aracýlýðý ile deðer atayabiliriz.
+        // Metotlarýný kullanýlabiliriz.
+
+        public void BilgiYazdir()
+        {
+            Console.WriteLine(OgretmenAdiSoyadi + "\n"+OgretmenYasi);
+           
+        }
+    }
+    class Sinif
+    {
+        public int SinifAdi;
+        public int DerslikNumarasi;
+        public int SinifProgramý;
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Ogretmen kb1 = new Ogretmen();
+            kb1.OgretmenAdiSoyadi ="ÖgretmenAdi ve Soyadi: Mehmet Demir";
+            kb1.OgretmenYasi = " Ögretmen Yaþý : 30";
+            
+            kb1._yasBilgisi.SinifAdi = 723726;
+
+            kb1.BilgiYazdir();
+            Console.WriteLine("Derslik Numarasý :"+ (kb1._yasBilgisi.SinifAdi));
+            
+
+           
+            Console.ReadKey();
+        }
+    }
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------

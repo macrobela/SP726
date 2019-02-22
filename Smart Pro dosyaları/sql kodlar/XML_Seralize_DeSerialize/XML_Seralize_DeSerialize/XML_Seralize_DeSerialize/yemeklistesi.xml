@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<yemeklistesi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <menuList>
+    <menu menuAdi="FFF">
+      <corba>FFF</corba>
+      <anayemek>FFF</anayemek>
+      <tatli>FFF</tatli>
+    </menu>
+    <menu menuAdi="GGG">
+      <corba>GGG</corba>
+      <anayemek>GGG</anayemek>
+      <tatli>GGG</tatli>
+    </menu>
+  </menuList>
+</yemeklistesi>

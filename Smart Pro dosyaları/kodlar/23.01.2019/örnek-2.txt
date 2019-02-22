@@ -1,0 +1,4 @@
+SORU-Yerel C deki dosyarin altýnda bulunan deðiþtirme tarihi 1 gün önce olan dosyalarý C:\ HEDEF 
+klasörün kopyalayan ve deðiþtirme tarihi 5 günden eski olan dosyalarý silen programý yazýnýz.
+
+C:\TEST\Silmeloglarý.txt

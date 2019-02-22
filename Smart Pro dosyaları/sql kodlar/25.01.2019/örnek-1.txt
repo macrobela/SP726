@@ -1,0 +1,45 @@
+--use suleymanavsar
+--select * 
+--from Persons
+
+--select  Min(Age)
+--from Persons
+
+
+--select  Max(Age)
+--from  Persons
+
+--select COUNT (PersonID)
+--from Persons;
+
+--use suleymanavsar
+--select FistName as isim
+--from Persons;
+
+
+--use suleymanavsar
+
+ --CREATE TABLE Persons(  
+	--PersonID smallint,
+	--LastName nvarchar(44),
+	--FistName nvarchar(44),
+	--Address nvarchar(255),
+	--City nvarchar (33),
+	--Age smallint 
+	--);
+
+
+ 
+ 
+
+
+
+
+
+ --truncate  table table_1  --  TRUNCATE Tabloyu bosaltmayý yarar.
+
+ --drop table Table_1 -- Tabloyu sil
+
+
+ --select * from Table_1
+ --where kADi LIKE '%[Sen]';

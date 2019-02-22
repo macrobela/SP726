@@ -1,0 +1,10 @@
+--soru 5:birim fiyatý 15-30 dolar arasýnda olan urunlermizden toplam kaç sipariþ var?
+--Quantity=siparisler 
+--SUM=TOPLAM
+--UNÝTPRÝCE=FÝYATÝ
+
+
+use NORTHWND
+select SUM (Quantity)
+from [Order Details]
+where UnitPrice BETWEEN 15 and 30

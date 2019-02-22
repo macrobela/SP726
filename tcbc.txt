@@ -1,0 +1,62 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication13
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int sayi1, sayi2, sonuc;
+            string islem;
+            
+            
+
+            Console.WriteLine("Lütfen 1.sayýyý giriniz;");
+            sayi1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Lütfen 2.sayýyý giriniz;");
+            sayi2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Ýþlem Giriniz: ");
+            islem = Console.ReadLine();
+           
+            Console.WriteLine("toplam: T");
+            Console.WriteLine("carpma: Ç");
+            Console.WriteLine("Bölme: B");
+            Console.WriteLine("Cýkartma: C");
+
+
+            if (islem=="T")
+            {
+                Console.WriteLine("sayilarin toplamý" + (sayi1+sayi2));
+            }
+            else if(islem=="Ç")
+            {
+                Console.WriteLine("sayilarin cýkartma" + (sayi1 * sayi2));
+            }
+            else if (islem=="C")
+            {
+                Console.WriteLine("sayilarin carpma" + (sayi1 - sayi2));
+            }
+            else if (islem=="B")
+            {
+                if (sayi2 == 0)
+                {
+                    Console.WriteLine("Bölen 0 olmaz");
+                }
+                else
+                {
+                    Console.WriteLine(sayi1/sayi2);
+                }        
+
+                Console.WriteLine("sayilarin bölme");
+            }
+            Console.ReadLine();
+
+
+        }
+    }
+}

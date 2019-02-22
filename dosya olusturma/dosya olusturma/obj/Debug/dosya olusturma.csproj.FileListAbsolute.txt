@@ -1,0 +1,6 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\dosya olusturma\dosya olusturma\bin\Debug\dosya olusturma.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\dosya olusturma\dosya olusturma\bin\Debug\dosya olusturma.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\dosya olusturma\dosya olusturma\bin\Debug\dosya olusturma.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\dosya olusturma\dosya olusturma\obj\Debug\dosya olusturma.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\dosya olusturma\dosya olusturma\obj\Debug\dosya olusturma.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\dosya olusturma\dosya olusturma\obj\Debug\dosya olusturma.pdb

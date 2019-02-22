@@ -1,0 +1,32 @@
+film butonu
+--------------
+FilmAdi:textBox_Filmdi_1
+FilmFragmani:textBox_FilmFragman
+FilmÖzeti:textBox_KisaBilgi
+butonu:btn_FilmKaydet
+
+
+
+salon adi
+----------------------
+
+textbox:textBox_SalonAdi_1
+
+-----------------------
+
+filmadi:comboBox_FilmAdi
+salonadi:comboBox_SalonAdi
+yayinZamani:dateTP_YayinZamani
+yayin ekle:btn_YayinEkle
+
+------------------------
+datagridview (sagdaki bölüm)  :dataGV_YayinTablo
+datagridview (sagdaki bölüm)  :dataGV_GroupBy  
+
+
+her birinde panel1.panel2,panel3,panel4
+ ile ayrýlmýþ
+
+
+
+

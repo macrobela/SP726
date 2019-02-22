@@ -1,0 +1,11 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ODEV-3\ODEV-3\bin\Debug\ODEV-3.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ODEV-3\ODEV-3\bin\Debug\ODEV-3.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ODEV-3\ODEV-3\bin\Debug\ODEV-3.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ODEV-3\ODEV-3\obj\Debug\ODEV-3.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ODEV-3\ODEV-3\obj\Debug\ODEV_3.Form1.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ODEV-3\ODEV-3\obj\Debug\ODEV_3.Properties.Resources.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ODEV-3\ODEV-3\obj\Debug\ODEV-3.csproj.GenerateResource.Cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ODEV-3\ODEV-3\obj\Debug\ODEV-3.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ODEV-3\ODEV-3\obj\Debug\ODEV-3.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ODEV-3\ODEV-3\bin\Debug\ODEV3_IS.dll
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ODEV-3\ODEV-3\bin\Debug\ODEV3_IS.pdb

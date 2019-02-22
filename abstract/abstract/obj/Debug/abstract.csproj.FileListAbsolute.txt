@@ -1,0 +1,6 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\abstract\abstract\bin\Debug\@abstract.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\abstract\abstract\bin\Debug\@abstract.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\abstract\abstract\bin\Debug\@abstract.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\abstract\abstract\obj\Debug\abstract.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\abstract\abstract\obj\Debug\@abstract.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\abstract\abstract\obj\Debug\@abstract.pdb

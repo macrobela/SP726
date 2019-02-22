@@ -1,0 +1,22 @@
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\ODEV3\ODEV3-WF\bin\Debug\ODEV3-WF.exe.config
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\ODEV3\ODEV3-WF\bin\Debug\ODEV3-WF.exe
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\ODEV3\ODEV3-WF\bin\Debug\ODEV3-WF.pdb
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\ODEV3\ODEV3-WF\obj\Debug\ODEV3_WF.csprojResolveAssemblyReference.cache
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\ODEV3\ODEV3-WF\obj\Debug\ODEV3_WF.Form1.resources
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\ODEV3\ODEV3-WF\obj\Debug\ODEV3_WF.Properties.Resources.resources
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\ODEV3\ODEV3-WF\obj\Debug\ODEV3_WF.csproj.GenerateResource.Cache
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\ODEV3\ODEV3-WF\obj\Debug\ODEV3-WF.exe
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\ODEV3\ODEV3-WF\obj\Debug\ODEV3-WF.pdb
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\ODEV3\ODEV3-WF\bin\Debug\ODEV3-IS.dll
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\ODEV3\ODEV3-WF\bin\Debug\ODEV3-IS.pdb
+C:\Users\suleyman.avsar\Desktop\ODEV3\ODEV3\ODEV3-WF\bin\Debug\ODEV3-WF.exe.config
+C:\Users\suleyman.avsar\Desktop\ODEV3\ODEV3\ODEV3-WF\obj\Debug\ODEV3-WF.exe
+C:\Users\suleyman.avsar\Desktop\ODEV3\ODEV3\ODEV3-WF\obj\Debug\ODEV3-WF.pdb
+C:\Users\suleyman.avsar\Desktop\ODEV3\ODEV3\ODEV3-WF\bin\Debug\ODEV3-WF.exe
+C:\Users\suleyman.avsar\Desktop\ODEV3\ODEV3\ODEV3-WF\bin\Debug\ODEV3-WF.pdb
+C:\Users\suleyman.avsar\Desktop\ODEV3\ODEV3\ODEV3-WF\bin\Debug\ODEV3-IS.dll
+C:\Users\suleyman.avsar\Desktop\ODEV3\ODEV3\ODEV3-WF\bin\Debug\ODEV3-IS.pdb
+C:\Users\suleyman.avsar\Desktop\ODEV3\ODEV3\ODEV3-WF\obj\Debug\ODEV3_WF.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\ODEV3\ODEV3\ODEV3-WF\obj\Debug\ODEV3_WF.Form1.resources
+C:\Users\suleyman.avsar\Desktop\ODEV3\ODEV3\ODEV3-WF\obj\Debug\ODEV3_WF.Properties.Resources.resources
+C:\Users\suleyman.avsar\Desktop\ODEV3\ODEV3\ODEV3-WF\obj\Debug\ODEV3_WF.csproj.GenerateResource.Cache

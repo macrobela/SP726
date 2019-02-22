@@ -1,0 +1,6 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\akis\akis\bin\Debug\akis.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\akis\akis\bin\Debug\akis.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\akis\akis\bin\Debug\akis.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\akis\akis\obj\Debug\akis.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\akis\akis\obj\Debug\akis.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\akis\akis\obj\Debug\akis.pdb

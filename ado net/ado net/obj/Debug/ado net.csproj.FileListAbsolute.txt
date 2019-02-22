@@ -1,0 +1,6 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ado net\ado net\bin\Debug\ado net.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ado net\ado net\bin\Debug\ado net.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ado net\ado net\bin\Debug\ado net.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ado net\ado net\obj\Debug\ado net.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ado net\ado net\obj\Debug\ado net.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ado net\ado net\obj\Debug\ado net.pdb

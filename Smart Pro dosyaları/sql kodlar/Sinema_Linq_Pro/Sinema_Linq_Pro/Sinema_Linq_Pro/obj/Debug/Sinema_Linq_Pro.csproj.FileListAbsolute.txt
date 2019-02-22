@@ -1,0 +1,18 @@
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\Sinema_Linq_Pro\Sinema_Linq_Pro\bin\Debug\Sinema_Linq_Pro.exe.config
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\Sinema_Linq_Pro\Sinema_Linq_Pro\bin\Debug\Sinema_Linq_Pro.exe
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\Sinema_Linq_Pro\Sinema_Linq_Pro\bin\Debug\Sinema_Linq_Pro.pdb
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\Sinema_Linq_Pro\Sinema_Linq_Pro\obj\Debug\Sinema_Linq_Pro.csprojResolveAssemblyReference.cache
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\Sinema_Linq_Pro\Sinema_Linq_Pro\obj\Debug\Sinema_Linq_Pro.Form1.resources
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\Sinema_Linq_Pro\Sinema_Linq_Pro\obj\Debug\Sinema_Linq_Pro.Properties.Resources.resources
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\Sinema_Linq_Pro\Sinema_Linq_Pro\obj\Debug\Sinema_Linq_Pro.csproj.GenerateResource.Cache
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\Sinema_Linq_Pro\Sinema_Linq_Pro\obj\Debug\Sinema_Linq_Pro.exe
+c:\users\mehmet.demir\documents\visual studio 2015\Projects\Sinema_Linq_Pro\Sinema_Linq_Pro\obj\Debug\Sinema_Linq_Pro.pdb
+C:\Users\suleyman.avsar\Desktop\Sinema_Linq_Pro\Sinema_Linq_Pro\Sinema_Linq_Pro\bin\Debug\Sinema_Linq_Pro.exe.config
+C:\Users\suleyman.avsar\Desktop\Sinema_Linq_Pro\Sinema_Linq_Pro\Sinema_Linq_Pro\obj\Debug\Sinema_Linq_Pro.exe
+C:\Users\suleyman.avsar\Desktop\Sinema_Linq_Pro\Sinema_Linq_Pro\Sinema_Linq_Pro\obj\Debug\Sinema_Linq_Pro.pdb
+C:\Users\suleyman.avsar\Desktop\Sinema_Linq_Pro\Sinema_Linq_Pro\Sinema_Linq_Pro\bin\Debug\Sinema_Linq_Pro.exe
+C:\Users\suleyman.avsar\Desktop\Sinema_Linq_Pro\Sinema_Linq_Pro\Sinema_Linq_Pro\bin\Debug\Sinema_Linq_Pro.pdb
+C:\Users\suleyman.avsar\Desktop\Sinema_Linq_Pro\Sinema_Linq_Pro\Sinema_Linq_Pro\obj\Debug\Sinema_Linq_Pro.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\Sinema_Linq_Pro\Sinema_Linq_Pro\Sinema_Linq_Pro\obj\Debug\Sinema_Linq_Pro.Form1.resources
+C:\Users\suleyman.avsar\Desktop\Sinema_Linq_Pro\Sinema_Linq_Pro\Sinema_Linq_Pro\obj\Debug\Sinema_Linq_Pro.Properties.Resources.resources
+C:\Users\suleyman.avsar\Desktop\Sinema_Linq_Pro\Sinema_Linq_Pro\Sinema_Linq_Pro\obj\Debug\Sinema_Linq_Pro.csproj.GenerateResource.Cache

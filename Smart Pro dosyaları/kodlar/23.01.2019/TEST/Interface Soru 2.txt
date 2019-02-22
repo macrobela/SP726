@@ -1,0 +1,24 @@
+Aþaðýdaki kategorlendirme þablonunu interface yapýsýný kullanarak çýkarýnýz.
+Ve Toshiba sýnýfýndan 1 adet nesne oluturarak programý çalýþtýrýnýz.
+
+Ana Interface : ISesGoruntuSistemleri
+------------------------------------------------
+Özelliler:   Marka, Fiyat(enc), Puan(enc)
+	 PuanToplami, PuanlayanToplam
+
+Metot: 	PuanVer(byte puan)				PuanGoster()
+	Ortalama puaný hesaplamada kullanýlacak	Ürün puanýný yazdýr
+Alt Interface: ITelevizyon:
+--------------------------------
+Özellikler:	Çözünürlük(string),EkranBoyutu(byte),UyduAlici(bool)
+Metot: OzellikYazdir();
+Sýnýf: Toshiba:
+-----------------
+Main:	Bir nesne oluþturarak OzellikYazdir(); metodunu çaðýrýnýz.
+  bool Bluetooth = true;
+      string strBluetooth = Bluetooth ? "Var" : "Yok";
+
+
+
+
+

@@ -1,0 +1,74 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication88
+{
+    enum Enerjiler : byte { A, B, C, D, E }
+    enum Fýrýnlar : byte {MiniFýrýn,NormalFýrýn }
+
+    class BeyazEsya
+    {
+        public string Marka;
+        public int Fiyat;
+        public int GarantiSuresi;
+        public Enerjiler Enerji;
+        public Fýrýnlar fýrýnlar;
+
+        public BeyazEsya (string marka,int fiyat,int garantisuresi,Enerjiler enerji)
+        {
+            this.Marka = marka;
+            this.Fiyat = fiyat;
+            this.GarantiSuresi = garantisuresi;
+            this.Enerji = enerji;
+        }
+        virtual public void indirimliFiyatHesapla()
+        {
+            Console.WriteLine($"Ýndirim Yok: \nFiyat Bilgisi: {Fiyat}");
+
+        }
+    }
+    class BulasýkMakinesi:BeyazEsya
+    {
+        public  int ProgramSayisi;
+        public string Modeli;
+        public int ÝndirimOrani;
+       
+       
+        //public Arraylist aliste = new Arraylist();
+
+        //public string marka;
+        //public object Arraylist { get; private set; }
+
+        public BulasýkMakinesi(int programsayisi,string modeli,int indirimorani, string marka, int fiyat, int garantisuresi,Enerjiler enerji) :base(marka,fiyat,garantisuresi,enerji)
+        {
+            this.ProgramSayisi = programsayisi;
+            this.Modeli = modeli;
+            this.ÝndirimOrani = indirimorani;
+        }
+        public override void indirimliFiyatHesapla()
+        {
+            int indirimliFiyat = this.Fiyat - ((Fiyat * this.ÝndirimOrani) / 100);
+            Console.WriteLine("Ýndirim Orani: "+this.ÝndirimOrani+" \nFiyat Bilgisi : "+ indirimliFiyat);
+        }
+
+    }
+    class Program
+    {
+        static void ÝndirimFiyatHesapla(BeyazEsya be)
+        {
+            be.indirimliFiyatHesapla();
+        }
+        static void Main(string[] args)
+        {
+
+            BulasýkMakinesi bm = new BulasýkMakinesi(2, "X32" ,30,"Arcelik",1000,4,Enerjiler.A);
+
+            ÝndirimFiyatHesapla(bm);
+
+            Console.ReadKey();
+        }
+    }
+}

@@ -1,0 +1,279 @@
+404-Sabah
+Web ve Mobil Programlama Sýnýfý
+Akýþ
+Sýnýf Çalýþmalarý
+Kiþiler
+404-Sabah
+Web ve Mobil Programlama Sýnýfý
+Teslim tarihi yaklaþan ödevler
+Yaþasýn, teslim tarihi yaklaþan ödev/soru yok!
+Tümünü görüntüle
+
+Sýnýfýnýzla bir þeyler paylaþýn…
+
+Duyuru: "Merhaba Arkadaþlar; Bugün iþlediðimiz…"
+Mehmet DEMÝR
+Oluþturulma tarihi: 15 Oca15 Oca
+Merhaba Arkadaþlar;
+Bugün iþlediðimiz konular-özellikle kalýtým-önemliydi.
+Gelemeyen ve tekrar dinlemek isteyen arkadaþlar için videolarýn linkini aþaðýya býrakýyorum.
+(dll kullanýmýný formda göstermiþ. Ama console da yaptýðýmýzdan farklý birþey yok.Takýlmayýn)
+
+DLL Kullanýmý: https://www.youtube.com/watch?v=E2fOEyndGlY
+Kalýtým: https://www.youtube.com/watch?v=ozCAHfwQ_D8
+Ýçiçe Sýnýflar: https://www.youtube.com/watch?v=wkApifq56DQ
+
+Yayýn sahibi: murat tugrul
+murat tugrul
+Oluþturulma tarihi: 15 Oca15 Oca
+Kalýtým-Soru-2 Cevap
+
+Kaltým Soru2 Cevap.txt
+Metin
+
+Duyuru: "Kalýtým-Soru-2"
+Mehmet DEMÝR
+Oluþturulma tarihi: 15 Oca15 Oca
+Kalýtým-Soru-2
+
+Kaltýtým_Soru2.txt
+Metin
+
+Duyuru: "Kalýtým Ders Notlarý ve Arac Sorusu"
+Mehmet DEMÝR
+Oluþturulma tarihi: 15 Oca15 Oca (Düzenlenme: 15 Oca)
+Kalýtým Ders Notlarý ve Arac Sorusu
+
+Kalitim_Ders_Notlari.txt
+Metin
+
+Kalýtým_Arac_Sorusu_Cevap.txt
+Metin
+
+Kalýtým_Arac_Sorusu.txt
+Metin
+
+Duyuru: "Ýçiçe sýnýf kullanýmý sorusu"
+Mehmet DEMÝR
+Oluþturulma tarihi: 15 Oca15 Oca
+Ýçiçe sýnýf kullanýmý sorusu
+
+NestedSoru.txt
+Metin
+
+Rümeysa Bükecik15 Oca
+class Ogretmen
+{
+public string OgretmenAdi;
+public int OgretmenYasi;
+
+public Siniif Siniff = new Siniif();
+
+public void BilgiYazdir()
+{
+Console.WriteLine("Öðretmen Adý: "+OgretmenAdi);
+Console.WriteLine("Öðretmen Yaþý: " + OgretmenYasi);
+Console.WriteLine("Sýnýf Adý: "+Siniff.SinifAdi);
+Console.WriteLine("Derslik Numarasý: "+Siniff.DerslikNumarasi);
+Console.WriteLine("Sýnýf Programý: "+Siniff.SinifProgrami);
+}
+}
+
+class Siniif
+{
+public int SinifAdi;
+public int DerslikNumarasi;
+public string SinifProgrami;
+}
+class Program
+{
+static void Main(string[] args)
+{
+Ogretmen ogt = new Ogretmen();
+
+ogt.OgretmenAdi = "Mehmet Demir";
+ogt.OgretmenYasi = 30;
+ogt.Siniff.SinifAdi = 723726;
+ogt.Siniff.DerslikNumarasi = 404;
+ogt.Siniff.SinifProgrami = "Web ve Mobil Programlama";
+
+ogt.BilgiYazdir();
+
+Console.Read();
+}
+}
+
+Duyuru: "14 Ocak 2019 Sýnýf ve Enum Sorularý"
+Mehmet DEMÝR
+Oluþturulma tarihi: 14 Oca14 Oca (Düzenlenme: 15 Oca)
+14 Ocak 2019 Sýnýf ve Enum Sorularý
+
+ArabaSorusu.txt
+Metin
+
+EnumSorusu.txt
+Metin
+
+Sirket.txt
+Metin
+
+Duyuru: "Merhaba Arkadaþlar; Ödev dosyasýna…"
+Mehmet DEMÝR
+Oluþturulma tarihi: 11 Oca11 Oca (Düzenlenme: 14 Oca)
+Merhaba Arkadaþlar;
+Ödev dosyasýna aþaðýdan eriþebilirsiniz.
+Sað týklayýp yeni sekmede açarsanýz indirme butonu çýkacaktýr.
+Anlaþýlmayan yer olursa WhatsApp aracýlýðý ile sorabilirsiniz.
+Buradan görmem geç olabilir.
+Kolay gelsin.
+Düzeltme: Önceki versiyonu sildim. Orada ArrayList sýnýf içerisinde tanýmlandýðý için her seferinde yeniden oluþturuluyordu. 
+ArrayListi main metodunda tanýmlayýp sýnýf metotlarýna parametre olarak göndererek iþlem yapacaðýz.
+
+Ödev1.txt
+Metin
+
+Odev1CS.txt
+Metin
+
+Duyuru: "11.01.2019 Cuma günü sorulan sorular:…"
+Mehmet DEMÝR
+Oluþturulma tarihi: 11 Oca11 Oca
+11.01.2019 Cuma günü sorulan sorular:
+
+
+Sýnýflar: Set Get
+------------------------------------------------------
+SORU: 
+Üçgenin Kenar uzunluklarýný aþaðýdaki matematiksel kurallara göre 
+alýnýz ve çevre hesaplama metodunu int dönüþ tipi ile tanýmlayýp kullanýnýz.
+
+
+public void KenarGir()
+----------------------
+* 3. kenar diðer iki kenarýn toplamýndan küçük,
+* farkýndan büyük olmalýdýr.
+
+3. kenar koþulu saðlamýyorsa tekrar istesin.
+
+public int CevreHesapla()
+------------------------
+
+
+SORU: 
+Sýnýf Adý: Sirket
+Özellikler
+-----------
+SirketAdi
+VergiDairesi
+VergiNumarasi
+ArrayList SirketTurleri(Anonim, Limited, Þahýs) ArrayList
+Turu(0,1,2)
+Parametresiz Constructor(yapýcý) metot ile:
+-------------------------------------------
+SirketAdi = "Bilgi Eksik"
+VergiDairesi= "Bilgi Eksik";
+VergiNumarasi= "Bilgi Eksik"
+Turu = 2
+
+Parametreli yapýcý: (SirketAdi,VergiDairesi,VergiNumarasi,Turu)
+-------------------------------------------
+SirketAdi = "Bilgi Eksik"
+VergiDairesi= "Bilgi Eksik";
+VergiNumarasi= "Bilgi Eksik"
+Turu = 0 1 2
+
+Sirket DemirCompany = new Sirket("DemirComp","Kadýköy/Ýstanbul","00256","Þahýs")
+
+BilgiGoster()
+
+sretk2.BilgiGoster();
+
+Ekrana bilgileri yazdýracak.
+
+Duyuru: "Sýnýflar.YapýcýMetotlar.SirketSorusu"
+Mehmet DEMÝR
+Oluþturulma tarihi: 11 Oca11 Oca
+Sýnýflar.YapýcýMetotlar.SirketSorusu
+
+Sirket.txt
+Metin
+
+Yayýn sahibi: Yakup BÝLGEN
+Yakup BÝLGEN
+Oluþturulma tarihi: 10 Oca10 Oca
+10 ocak
+
+ocak10-Class Sýnýflar.txt
+Metin
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication38
+{
+    enum Bolumler :byte { Muhasebe, Yazýlým_Birimi, IT_Birimi, IK, Satýn_Alma, Hukuk_Satýþ }
+    class Personel
+    {
+        public string AdSoyad;
+        public Bolumler Bolum;
+        public byte Yas;
+        public Personel(string adSoyad,Bolumler bolum,byte yas)
+        {
+            this.AdSoyad = adSoyad;
+            Bolum = bolum;
+            this.Yas = yas;
+
+        }
+       
+    }
+    class Yonetici:Personel
+    {
+        public int AltPersonelSayisi;
+
+        public Yonetici(int altPersonelSayisi, string adSoyad, Bolumler bolum, byte yas) : base(adSoyad, bolum, yas)
+        {
+            this.AltPersonelSayisi = altPersonelSayisi;
+        }
+        public void Bilgiyaz()
+        {
+            Console.WriteLine("AdSoyad: "+AdSoyad+" Bolum: "+Bolum+" Yaþ: "+Yas+" Alt Personel Sayýsý: "+AltPersonelSayisi);
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*SORU
+             * Aþaðýdaki sýnýflarý tanýmlayýnýz. Yönetici sýnýfý Personel sýnýfýndan türetilerektir
+             * sýnýfa ait tüm özelliklere(property) deðer atayan yapýcý metotlarý tanýmlayýnýz.
+             * 
+             * 
+             * 
+             * Bolumler:(Muhasebe, Yazýlým_Birimi, IT_Birimi, IK,Satýn_Alma,Hukuk_Satýþ)
+             * 
+             * Sýnýf Adý: Personel
+             * -------------------------
+             * AdSoyad
+             * Birim
+             * Yas
+             * 
+             * Sýnýf Adý: Yonetici
+             * -------------------------
+             * AltPersonelSayisi
+             *
+             */
+            Yonetici mudur = new Yonetici(30, "Murat",Bolumler.Yazýlým_Birimi,31);
+            mudur.Bilgiyaz();
+            Console.ReadKey();
+              
+
+
+
+        }
+    }
+}
+Kaltým Soru2 Cevap.txt
+Kaltým Soru2 Cevap.txt görüntüleniyor.

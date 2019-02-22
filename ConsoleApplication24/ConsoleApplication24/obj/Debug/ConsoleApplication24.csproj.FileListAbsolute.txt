@@ -1,0 +1,5 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication24\ConsoleApplication24\bin\Debug\ConsoleApplication24.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication24\ConsoleApplication24\bin\Debug\ConsoleApplication24.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication24\ConsoleApplication24\bin\Debug\ConsoleApplication24.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication24\ConsoleApplication24\obj\Debug\ConsoleApplication24.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication24\ConsoleApplication24\obj\Debug\ConsoleApplication24.pdb

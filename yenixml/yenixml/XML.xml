@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<okul>
+  <baslik bilgi="Bu etiket basligi icermektedir">Ögrenci Listesi</baslik>
+
+
+  <ogrenci numara="0">
+    <ad>Süleyman Beytullah</ad>
+    <soyad>Avşar</soyad>
+    <sinif>404</sinif>
+    <dogumtarih>24-04-1995</dogumtarih>
+  </ogrenci>
+  
+  
+  <ogrenci numara="1">
+    <ad>Yavuz</ad>
+    <soyad>Batmaz</soyad>
+    <sinif>404</sinif>
+    <dogumtarih>30-08-1990</dogumtarih>
+  </ogrenci>
+
+  <ogrenci numara="2">
+    <ad>Faruk</ad>
+    <soyad>Akat</soyad>
+    <sinif>403</sinif>
+    <dogumtarih>01-05-1995</dogumtarih>
+  </ogrenci>
+
+  <ogrenci numara="3">
+    <ad>Umut</ad>
+    <soyad>Arslan</soyad>
+    <sinif>404</sinif>
+    <dogumtarih>07-02-1992</dogumtarih>
+  </ogrenci>
+
+  <ogrenci numara="4">
+    <ad>İlker</ad>
+    <soyad>Karagöz</soyad>
+    <sinif>404</sinif>
+    <dogumtarih>07-05-1995</dogumtarih>
+  </ogrenci>
+
+  <ogrenci numara="5">
+    <ad>Abdullah</ad>
+    <soyad>Avşar</soyad>
+    <sinif>404</sinif>
+    <dogumtarih>04-01-1992</dogumtarih>
+  </ogrenci>
+
+  <ogrenci numara="6">
+    <ad>Berra</ad>
+    <soyad>Avşar</soyad>
+    <sinif>404</sinif>
+    <dogumtarih>08-11-1989</dogumtarih>
+  </ogrenci>
+
+  <ogrenci numara="7">
+    <ad>Tayyip</ad>
+    <soyad>Beşli</soyad>
+    <sinif>404</sinif>
+    <dogumtarih>11-11-1995</dogumtarih>
+  </ogrenci>
+  
+</okul>

@@ -1,0 +1,24 @@
+Directory sorusu:
+C:\22_01_2019 klasörü varmý kontrol edin.Yoksa oluþturun.
+Örnek::22_01_2019 (string replace metodu ile "."=>"_" olacak)
+bu klasörün son yazýlma tarihini ekrana yazýnýz.
+
+
+    	    DateTime bg3 = DateTime.Today;
+            string BMW = bg3.ToShortDateString();
+            BMW = BMW.Replace(".","_");
+            string dosyaYolu = @"C:\" + BMW;
+            bool klasorVarmi = Directory.Exists(dosyaYolu);
+            if (klasorVarmi == false)
+            Directory.CreateDirectory(dosyaYolu);
+
+            string [] dosyayeri = Directory.GetDirectories(Directory.GetDirectoryRoot(dosyaYolu));
+            //Console.WriteLine(Directory.GetCurrentDirectory(dosyaYolu));
+            foreach (var item in dosyayeri)
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.WriteLine(dosyaYolu);
+
+            Console.ReadKey();

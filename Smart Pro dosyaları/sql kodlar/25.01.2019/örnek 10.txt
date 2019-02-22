@@ -1,0 +1,21 @@
+--USE suleymanavsar
+--SELECT OgrenciAdi,OgrenciSoyadi,VeliAdi,VeliSoyadi
+--from ogrenci
+--LEFT JOIN veli ON ogrenci.OgrenciVeliID=veli.VeliID; -- 2 tabloyu birleþtirme 
+----inner join 2 tabloyu birleþtirme yani 2 tablonun kesisim kumesi
+----left join 1 tabloyu oldugu gibi yazar kesismedigi yerleri de yazar.
+
+--USE suleymanavsar
+--SELECT OgrenciAdi,OgrenciSoyadi,VeliAdi,VeliSoyadi
+--from ogrenci
+--RIGHT JOIN veli ON ogrenci.OgrenciVeliID=veli.VeliID;
+
+----RIGHT JOIN EGER VELÝSÝ OLMASAYDI ÖGRENCÝ ADI VE ÖGRENCÝ SOYADÝ NULL GÖSTERÝRDÝ.
+
+USE suleymanavsar
+SELECT OgrenciAdi,OgrenciSoyadi,VeliAdi,VeliSoyadi
+from ogrenci
+FULL  JOIN veli ON ogrenci.OgrenciVeliID=veli.VeliID;
+
+--FULL OUTER JOÝN HER ÝSÝ TARAFTAKÝ NESNELERÝ LÝSTELER 
+--OGRENCÝSÝ VE VELÝSÝ BULUNMAYAN SATIRLARIN HEPSÝNÝ LÝSTELER.

@@ -1,0 +1,49 @@
+use suleymanavsar
+select * 
+from Persons
+
+
+select  Min(Age)
+from Table_1
+
+
+select  Max(Age)
+from Table_1
+
+
+
+use suleymanavsar
+
+ CREATE TABLE Persons(  
+	PersonID smallint,
+	LastName nvarchar(44),
+	FistName nvarchar(44),
+	Address nvarchar(255),
+	City nvarchar (33),
+	Age smallint 
+	);
+
+
+ 
+ 
+
+
+
+
+
+ --truncate  table table_1  --  TRUNCATE Tabloyu bosaltmayý yarar.
+
+ --drop table Table_1 -- Tabloyu sil
+
+
+ --select * from Table_1
+ --where kADi LIKE '%[Sen]';
+
+
+---------------------------------------------------------------------
+eMPLOYEES  tablosunda firstname 'r l a' harfleriyle baþlayan listeleyen program
+ 
+  use NORTHWND
+  select * from Employees
+  where FirstName LIKE '[RLA]%'
+

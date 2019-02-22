@@ -1,0 +1,9 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\entity fremework\entity fremework\bin\Debug\entity fremework.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\entity fremework\entity fremework\bin\Debug\entity fremework.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\entity fremework\entity fremework\bin\Debug\entity fremework.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\entity fremework\entity fremework\obj\Debug\entity fremework.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\entity fremework\entity fremework\obj\Debug\entity_fremework.Form1.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\entity fremework\entity fremework\obj\Debug\entity_fremework.Properties.Resources.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\entity fremework\entity fremework\obj\Debug\entity fremework.csproj.GenerateResource.Cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\entity fremework\entity fremework\obj\Debug\entity fremework.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\entity fremework\entity fremework\obj\Debug\entity fremework.pdb

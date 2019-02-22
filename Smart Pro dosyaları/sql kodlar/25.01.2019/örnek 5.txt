@@ -1,0 +1,6 @@
+--soru4:almanaya ve ispanya da yasayan müþterilerin custower tablosu ilgili kiþi
+
+use NORTHWND
+SELECT ContactName as'Ýlgili Kiþi',CompanyName as [Sirket Adi]
+from Customers
+where Country='Germany' or Country='Spain';

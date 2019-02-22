@@ -1,0 +1,68 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication94
+{
+    interface Arac
+    {
+        string araba { get; set; }
+        string ucak { get; set; }
+        string panzer { get; set; }
+    }
+    interface Teker4:Arac
+    {
+        string AracTipi { get; set; }
+        void tip();
+    }
+
+    class Audi : Teker4
+    {
+
+        private string PAraba;
+        private string PUcak;
+        private string PPanzer;
+        private string PAracTipi;
+        public string araba
+        {
+            get{ return PAraba; }
+
+            set{ PAraba = value; }
+        }
+
+        public string AracTipi
+        {
+            get{ return PUcak; }
+
+            set{ PUcak = value; }
+        }
+
+        public string panzer
+        {
+            get{ return PPanzer; }
+
+            set{ PPanzer = value; }
+        }
+
+        public string ucak
+        {
+            get{ return PAracTipi; }
+
+            set{ PAracTipi = value; }
+        }
+
+        public void tip()
+        {
+            throw new NotImplementedException();
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+        }
+    }
+}

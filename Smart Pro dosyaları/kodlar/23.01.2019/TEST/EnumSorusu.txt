@@ -1,0 +1,35 @@
+ÖRNEK: enum Gunler : byte{Pazartesi,Salý,Çarþamba,Perþembe,Cuma, Cumartesi,Pazar }	
+
+SORU:  
+* Aylarý içeren enum tanýmlamasýný yapýnýz. 1. Ayýn sayýsal deðeri 1 olsun. Bu þekilde artsýn.
+
+* Klavyeden ay bilgisi isteyiniz.
+	Bu ay bilgisi eðer enum da yoksa tekrar istenecek.(3 hakký olacak)
+
+--------------------------------------------------
+
+ enum Aylar : byte { Ocak = 1,Þubat,Mart,Nisan,Mayýs,Haziran,
+    Temmuz,Aðustos,Eylül,Ekim,Kasým,Aralýk}
+
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int i = 1;
+      do
+      {
+        Console.Write("Ay Bilgisi Gir:");
+        string ay = Console.ReadLine();
+
+        if(Enum.IsDefined(typeof(Aylar), ay))
+        {
+          Console.WriteLine("Geçerli");
+          break;
+        }
+        i++;
+      } while ( i < 4);
+--------
+
+Bilgi: enum indis numarasý bulma:
+byte sira = (byte)Enum.Parse(typeof(Aylar),"Ocak");
+      Console.WriteLine(sira);

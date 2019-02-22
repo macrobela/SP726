@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SINEMAModelStoreContainer" CdmEntityContainer="SINEMAEntities">
+    <EntitySetMapping Name="Film">
+      <EntityTypeMapping TypeName="SINEMAModel.Film">
+        <MappingFragment StoreEntitySet="Film">
+          <ScalarProperty Name="FilmID" ColumnName="FilmID" />
+          <ScalarProperty Name="FilmAdi" ColumnName="FilmAdi" />
+          <ScalarProperty Name="FilmKisaBilgi" ColumnName="FilmKisaBilgi" />
+          <ScalarProperty Name="FilmFragmanLink" ColumnName="FilmFragmanLink" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Salon">
+      <EntityTypeMapping TypeName="SINEMAModel.Salon">
+        <MappingFragment StoreEntitySet="Salon">
+          <ScalarProperty Name="SalonID" ColumnName="SalonID" />
+          <ScalarProperty Name="SalonAdi" ColumnName="SalonAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="SINEMAModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Yayin">
+      <EntityTypeMapping TypeName="SINEMAModel.Yayin">
+        <MappingFragment StoreEntitySet="Yayin">
+          <ScalarProperty Name="YayinID" ColumnName="YayinID" />
+          <ScalarProperty Name="FilmID" ColumnName="FilmID" />
+          <ScalarProperty Name="SalonID" ColumnName="SalonID" />
+          <ScalarProperty Name="FYZaman" ColumnName="FYZaman" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Yayin_Isimli">
+      <EntityTypeMapping TypeName="SINEMAModel.Yayin_Isimli">
+        <MappingFragment StoreEntitySet="Yayin_Isimli">
+          <ScalarProperty Name="FilmAdi" ColumnName="FilmAdi" />
+          <ScalarProperty Name="SalonAdi" ColumnName="SalonAdi" />
+          <ScalarProperty Name="FYZaman" ColumnName="FYZaman" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="SINEMAModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="SINEMAModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="SINEMAModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="SP_FilmKaydet" FunctionName="SINEMAModel.Store.SP_FilmKaydet" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="SINEMAModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SINEMAModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="SINEMAModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SINEMAModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="SINEMAModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="SINEMAModel.Store.sp_upgraddiagrams" />
+  </EntityContainerMapping>
+</Mapping>

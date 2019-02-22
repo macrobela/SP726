@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OrnekCalismaModelStoreContainer" CdmEntityContainer="OrnekCalismaEntities1">
+    <EntitySetMapping Name="Doktors">
+      <EntityTypeMapping TypeName="OrnekCalismaModel.Doktor">
+        <MappingFragment StoreEntitySet="Doktor">
+          <ScalarProperty Name="DoktorID" ColumnName="DoktorID" />
+          <ScalarProperty Name="DoktorAdSoyad" ColumnName="DoktorAdSoyad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Hastas">
+      <EntityTypeMapping TypeName="OrnekCalismaModel.Hasta">
+        <MappingFragment StoreEntitySet="Hasta">
+          <ScalarProperty Name="HastaID" ColumnName="HastaID" />
+          <ScalarProperty Name="HastaAdSoyad" ColumnName="HastaAdSoyad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Randevus">
+      <EntityTypeMapping TypeName="OrnekCalismaModel.Randevu">
+        <MappingFragment StoreEntitySet="Randevu">
+          <ScalarProperty Name="RadevuID" ColumnName="RadevuID" />
+          <ScalarProperty Name="RandevuZaman" ColumnName="RandevuZaman" />
+          <ScalarProperty Name="HastaID" ColumnName="HastaID" />
+          <ScalarProperty Name="DoktorID" ColumnName="DoktorID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="Randevu_Kayit" FunctionName="OrnekCalismaModel.Store.proc_randevu_kaydet" />
+    <FunctionImportMapping FunctionImportName="Randevu_Listele" FunctionName="OrnekCalismaModel.Store.proc_randevu_listele" />
+    <FunctionImportMapping FunctionImportName="Randevu_Sil" FunctionName="OrnekCalismaModel.Store.proc_randevu_sil" />
+  </EntityContainerMapping>
+</Mapping>

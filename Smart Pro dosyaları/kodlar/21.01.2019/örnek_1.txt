@@ -1,0 +1,41 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace katýlým_ýnterface
+{
+    class Program
+    {
+        interface Arac
+        {
+            string AracAdi { get; set; }
+        }
+        interface Teker4:Arac
+        {
+            string AracTipi { get; set; }
+            void TipYazdir();
+        }
+        class Audi:Teker4
+        {
+            public string AracAdi { get; set; }
+            
+            public string AracTipi { get; set; }
+            public void TipYazdir()
+            {
+                Console.WriteLine("Arac Tipi :"+AracTipi );
+                Console.WriteLine("Aracým :"+AracAdi);
+            }
+        }
+        static void Main(string[] args)
+        {
+            Audi a1 = new Audi();
+            a1.AracAdi = "Yeni Audim";
+            a1.AracTipi = "Otomobil";
+            a1.TipYazdir();
+            
+            Console.ReadKey();
+        }
+    }
+}

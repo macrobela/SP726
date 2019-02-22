@@ -1,0 +1,90 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication80
+{
+    
+       
+
+    class Arac
+    {
+        public string marka;
+        public string vites;
+        public string renk;
+        protected double MotorHacmi;
+    }
+
+    class Otomobil : Arac
+    {
+        public int KapiSayisi;
+        public string Model;
+        public int Ceker4;
+        public bool ParkSensoru;
+
+        public void OtomobilBilgiYaz()
+        {
+            Console.WriteLine("********************************************************");
+            Console.WriteLine("Otomobil Bilgileri :");
+            Console.WriteLine("Marka :" + marka + " Vites :" + vites + " Renk :" + renk +
+                "MotoHacmi :" + MotorHacmi);
+            Console.WriteLine("Kapi Sayisi :" + KapiSayisi + " Model :" + Model + " Ceker4 :" + Ceker4 + " ParkSensörü :" + ParkSensoru);
+            Console.WriteLine("********************************************************");
+        }
+    }
+
+
+    class Ticari : Arac
+    {
+        public int TasimaKapasitesi;
+        public int Ceker4;
+        public int YolcuKapasitesi;
+
+        public void TicariBilgiYaz()
+        {
+
+            Console.WriteLine("Ticari Bilgileri :");
+            Console.WriteLine("Marka :" + marka + " Vites :" + vites + " Renk :" + renk +
+                "MotoHacmi :" + MotorHacmi);
+            Console.WriteLine("Taþima Kapasitesi :" + TasimaKapasitesi + " Ceker4 :" + Ceker4 + " Yolcu Kapasitesi :" + YolcuKapasitesi);
+            Console.WriteLine("********************************************************");
+        }
+    }
+
+
+
+
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            Otomobil o = new Otomobil();
+            o.marka = "Honda";
+            o.vites = "Manuel";
+            o.renk = "Kýrmýzý";
+            o.Ceker4 = 4;
+            o.ParkSensoru = true;
+            o.KapiSayisi = 2;
+            o.Model = "C150";
+            o.OtomobilBilgiYaz();
+            //////////////////////////////////////////
+            Ticari t = new Ticari();
+            t.marka = "Ford";
+            t.vites = "Otomatik";
+            t.renk = "Mavi";
+            t.Ceker4 = 2;
+            t.TasimaKapasitesi = 500;
+            t.YolcuKapasitesi = 4;
+            t.TicariBilgiYaz();
+
+            Console.ReadLine();
+
+
+        }
+    }
+}

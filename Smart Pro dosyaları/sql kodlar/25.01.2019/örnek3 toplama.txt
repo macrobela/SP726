@@ -1,0 +1,6 @@
+  --soru 3:order dateils tablosunda 51 ýd li ürünlerinin fiyat toplamýný bulun.
+	use NORTHWND
+	SELECT SUM(UnitPrice) -- SUM SQL DE toplama islemini yapýyor
+	FROM [Order Details]
+	WHERE ProductID=51;
+	

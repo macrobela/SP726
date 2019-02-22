@@ -1,0 +1,2 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication97\ConsoleApplication97\bin\Debug\ConsoleApplication97.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication97\ConsoleApplication97\obj\Debug\ConsoleApplication97.csprojResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+C:\Users\aAa\Desktop\odev\odev\obj\x86\Debug\odev.Form1.resources
+C:\Users\aAa\Desktop\odev\odev\obj\x86\Debug\odev.Properties.Resources.resources
+C:\Users\aAa\Desktop\odev\odev\obj\x86\Debug\odev.csproj.GenerateResource.Cache
+C:\Users\aAa\Desktop\odev\odev\bin\Debug\odev.exe
+C:\Users\aAa\Desktop\odev\odev\bin\Debug\odev.pdb
+C:\Users\aAa\Desktop\odev\odev\obj\x86\Debug\odev.exe
+C:\Users\aAa\Desktop\odev\odev\obj\x86\Debug\odev.pdb
+C:\Users\aAa\Desktop\odev\odev\obj\x86\Debug\odev.csprojResolveAssemblyReference.cache

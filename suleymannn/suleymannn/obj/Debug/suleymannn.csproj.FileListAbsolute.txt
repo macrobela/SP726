@@ -1,0 +1,6 @@
+C:\Users\suleyman.avsar\Desktop\suleymannn\suleymannn\bin\Debug\suleymannn.exe.config
+C:\Users\suleyman.avsar\Desktop\suleymannn\suleymannn\bin\Debug\suleymannn.exe
+C:\Users\suleyman.avsar\Desktop\suleymannn\suleymannn\bin\Debug\suleymannn.pdb
+C:\Users\suleyman.avsar\Desktop\suleymannn\suleymannn\obj\Debug\suleymannn.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\suleymannn\suleymannn\obj\Debug\suleymannn.exe
+C:\Users\suleyman.avsar\Desktop\suleymannn\suleymannn\obj\Debug\suleymannn.pdb

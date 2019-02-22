@@ -1,0 +1,5 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication26\ConsoleApplication26\bin\Debug\ConsoleApplication26.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication26\ConsoleApplication26\bin\Debug\ConsoleApplication26.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication26\ConsoleApplication26\bin\Debug\ConsoleApplication26.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication26\ConsoleApplication26\obj\Debug\ConsoleApplication26.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\ConsoleApplication26\ConsoleApplication26\obj\Debug\ConsoleApplication26.pdb

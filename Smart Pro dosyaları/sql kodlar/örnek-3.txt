@@ -1,0 +1,59 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+--SELECT TOP 1000 [OrderID]
+      --,[CustomerID]
+
+
+      --,[EmployeeID]
+	
+      --,[OrderDate]
+      --,[RequiredDate]
+      --,[ShippedDate]
+      --,[ShipVia]
+      --,[Freight]
+      --,[ShipName]
+      --,[ShipAddress]
+      --,[ShipCity]
+      --,[ShipRegion]
+      --,[ShipPostalCode]
+      --,[ShipCountry]
+
+ 
+  
+
+  --FROM [NORTHWND].[dbo].[Orders]
+  
+  --SELECT TOP 1000 [ShipName]
+  --FROM [NORTHWND].[dbo].[Orders]
+  --WHERE [CustomerID]  LIKE '%TOR%' AND ([ShipCountry]='Mexico' OR [ShipCountry]='Italy')
+  
+
+
+  SELECT TOP 1000 [OrderID]
+  
+  ,[CustomerID]
+  ,[OrderDate]
+  ,[RequiredDate]
+  ,[ShippedDate]
+  ,[ShipVia]
+  ,[Freight]
+  ,[ShipName]
+  ,[ShipAddress]
+  ,[ShipCity]
+  ,[ShipRegion]
+  ,[ShipPostalCode]
+  ,[ShipCountry]
+
+  FROM [NORTHWND].[dbo].[Orders]
+
+  
+  SELECT * FROM 
+  NORTHWND.dbo.ORDERS
+  where ShipCity ='Bergamo' And ShipCountry='Italy'
+
+
+  UPDATE NORTHWND.dbo.Orders
+
+  SET ShipCity='ÝSTANBUL',ShipCountry='Turkey'
+  WHERE ShipCity='Bergamo' AND ShipCountry='Italy';
+
+  

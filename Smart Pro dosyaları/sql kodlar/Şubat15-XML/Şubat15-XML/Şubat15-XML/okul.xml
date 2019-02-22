@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<okul>
+<baslik>SmartPro Bilişim Akademi</baslik>
+<Ogrenciler adi="Ogrenci1">
+<OgrenciNumara>1</OgrenciNumara>
+<OgrenciAdSoyad>Yakup Bilgen</OgrenciAdSoyad>
+<OgrenciSinif>404</OgrenciSinif>
+<OgrenciDogTar>1992</OgrenciDogTar>
+</Ogrenciler>
+
+<Ogrenciler adi="Ogrenci2">
+<OgrenciNumara>2</OgrenciNumara>
+<OgrenciAdSoyad>Ali Veli</OgrenciAdSoyad>
+<OgrenciSinif>404</OgrenciSinif>
+<OgrenciDogTar>1993</OgrenciDogTar>
+</Ogrenciler>
+
+<Ogrenciler adi="Ogrenci3">
+<OgrenciNumara>3</OgrenciNumara>
+<OgrenciAdSoyad>Ahmet Kaya</OgrenciAdSoyad>
+<OgrenciSinif>404</OgrenciSinif>
+<OgrenciDogTar>1994</OgrenciDogTar>
+</Ogrenciler>
+</okul>

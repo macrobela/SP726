@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OrnekCalismaModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="OrnekCalismaEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Doktors" EntityType="OrnekCalismaModel.Doktor" />
+    <EntitySet Name="Hastas" EntityType="OrnekCalismaModel.Hasta" />
+    <EntitySet Name="Randevus" EntityType="OrnekCalismaModel.Randevu" />
+    <FunctionImport Name="Randevu_Kayit" EntitySet="Randevus" ReturnType="Collection(OrnekCalismaModel.Randevu)">
+      <Parameter Name="hastaID" Mode="In" Type="Int32" />
+      <Parameter Name="doktorID" Mode="In" Type="Int32" />
+      <Parameter Name="randevuZaman" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="Randevu_Listele" EntitySet="Randevus" ReturnType="Collection(OrnekCalismaModel.Randevu)" />
+    <FunctionImport Name="Randevu_Sil" EntitySet="Randevus" ReturnType="Collection(OrnekCalismaModel.Randevu)">
+      <Parameter Name="randevuID" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <EntityType Name="Doktor">
+    <Key>
+      <PropertyRef Name="DoktorID" />
+    </Key>
+    <Property Name="DoktorID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DoktorAdSoyad" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Hasta">
+    <Key>
+      <PropertyRef Name="HastaID" />
+    </Key>
+    <Property Name="HastaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HastaAdSoyad" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Randevu">
+    <Key>
+      <PropertyRef Name="RadevuID" />
+    </Key>
+    <Property Name="RadevuID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RandevuZaman" Type="DateTime" />
+    <Property Name="HastaID" Type="Int32" />
+    <Property Name="DoktorID" Type="Int32" />
+  </EntityType>
+</Schema>

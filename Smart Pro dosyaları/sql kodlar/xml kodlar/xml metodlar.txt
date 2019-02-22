@@ -1,0 +1,142 @@
+                                          XML DÖKÜMAN
+
+-----------------------------------------------------------------------------
+
+
+<?xml version="1.0" encoding="utf-8" ?>
+<okul>
+  <baslik bilgi="Bu etiket basligi icermektedir">Ögrenci Listesi</baslik>
+
+
+  <ogrenci numara="0">
+    <ad>Süleyman Beytullah</ad>
+    <soyad>Avþar</soyad>
+    <sinif>404</sinif>
+    <dogumtarih>24-04-1995</dogumtarih>
+  </ogrenci>
+  
+  
+  <ogrenci numara="1">
+    <ad>Yavuz</ad>
+    <soyad>Batmaz</soyad>
+    <sinif>404</sinif>
+    <dogumtarih>30-08-1990</dogumtarih>
+  </ogrenci>
+
+  <ogrenci numara="2">
+    <ad>Faruk</ad>
+    <soyad>Akat</soyad>
+    <sinif>403</sinif>
+    <dogumtarih>01-05-1995</dogumtarih>
+  </ogrenci>
+
+  <ogrenci numara="3">
+    <ad>Umut</ad>
+    <soyad>Arslan</soyad>
+    <sinif>404</sinif>
+    <dogumtarih>07-02-1992</dogumtarih>
+  </ogrenci>
+
+  <ogrenci numara="4">
+    <ad>Ýlker</ad>
+    <soyad>Karagöz</soyad>
+    <sinif>404</sinif>
+    <dogumtarih>07-05-1995</dogumtarih>
+  </ogrenci>
+
+  <ogrenci numara="5">
+    <ad>Abdullah</ad>
+    <soyad>Avþar</soyad>
+    <sinif>404</sinif>
+    <dogumtarih>04-01-1992</dogumtarih>
+  </ogrenci>
+
+  <ogrenci numara="6">
+    <ad>Berra</ad>
+    <soyad>Avþar</soyad>
+    <sinif>404</sinif>
+    <dogumtarih>08-11-1989</dogumtarih>
+  </ogrenci>
+
+  <ogrenci numara="7">
+    <ad>Tayyip</ad>
+    <soyad>Beþli</soyad>
+    <sinif>404</sinif>
+    <dogumtarih>11-11-1995</dogumtarih>
+  </ogrenci>
+  
+</okul>
+
+                                        c# FORMS SAYFASI
+
+---------------------------------------------------------------------------
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Xml;
+
+
+namespace yenixml
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        XmlDocument xmlDosyasi;
+        XmlNodeList okulNodeList;
+        XmlNode okulNode;
+        string numarabul;
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            xmlDosyasi = new XmlDocument();
+            //xmlDosyasi.Load(@"C:\Users\suleyman.avsar\Desktop\console.uygulama\yenixml\yenixml\bin\Debug");
+            xmlDosyasi.Load(@"..\..\XML.xml");
+            okulNode = xmlDosyasi.SelectSingleNode("okul");
+            label2.Text = $"{okulNode.SelectSingleNode("baslik").InnerText}";
+            label3.Text = $"{okulNode.SelectSingleNode("baslik").Attributes["bilgi"].Value}";
+
+            okulNodeList = okulNode.SelectNodes("ogrenci");
+            foreach (XmlNode ogrenci in okulNodeList)
+            {
+                listBox1.Items.Add(ogrenci.Attributes["numara"].Value);//menu isimleri yazýyor                
+            }
+        }
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string secilenogrenci = listBox1.SelectedItems.ToString();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            numarabul = textBox1.Text;
+
+            foreach (XmlNode ogrenci in okulNodeList)
+            {
+               // listBox1.Items.Add(ogrenci.Attributes["numara"].Value);//menu isimleri yazýyor   
+
+                if (numarabul == ogrenci.Attributes["numara"].Value)
+                {
+                    listBox1.Items.Add(ogrenci.SelectSingleNode("ad").InnerText);
+                    listBox1.Items.Add(ogrenci.SelectSingleNode("soyad").InnerText);
+                    listBox1.Items.Add(ogrenci.SelectSingleNode("sinif").InnerText);
+                    listBox1.Items.Add(ogrenci.SelectSingleNode("dogumtarih").InnerText);
+                }
+            }
+            
+
+        }
+    }
+}
+

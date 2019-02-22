@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OrnekCalismaModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="OrnekCalismaModelStoreContainer">
+    <EntitySet Name="Doktor" EntityType="OrnekCalismaModel.Store.Doktor" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Hasta" EntityType="OrnekCalismaModel.Store.Hasta" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Randevu" EntityType="OrnekCalismaModel.Store.Randevu" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Doktor">
+    <Key>
+      <PropertyRef Name="DoktorID" />
+    </Key>
+    <Property Name="DoktorID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DoktorAdSoyad" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Hasta">
+    <Key>
+      <PropertyRef Name="HastaID" />
+    </Key>
+    <Property Name="HastaID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HastaAdSoyad" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Randevu">
+    <Key>
+      <PropertyRef Name="RadevuID" />
+    </Key>
+    <Property Name="RadevuID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="RandevuZaman" Type="datetime" />
+    <Property Name="HastaID" Type="int" />
+    <Property Name="DoktorID" Type="int" />
+  </EntityType>
+  <Function Name="proc_randevu_kaydet" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="hastaID" Type="int" Mode="In" />
+    <Parameter Name="doktorID" Type="int" Mode="In" />
+    <Parameter Name="randevuZaman" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="proc_randevu_listele" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="proc_randevu_sil" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="randevuID" Type="int" Mode="In" />
+  </Function>
+</Schema>

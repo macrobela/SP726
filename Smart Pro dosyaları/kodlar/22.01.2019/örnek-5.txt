@@ -1,0 +1,27 @@
+soru:klavyeden kapat yazýsý girilene kadar Aþagýdaki bilgileri isteyecek
+ve bir test dosyasýna kaydedecek programýný yazýnýz.
+
+  	    string DosyaYolu = " C:\\SULEYMAN\\SULOFileIO.txt";
+            FileStream fs = new FileStream(DosyaYolu, FileMode.Append, FileAccess.Write);
+            StreamWriter sw = new StreamWriter(fs, Encoding.Default);
+            string adgir;
+            string tcgir;
+
+            while (true)
+            {
+                Console.WriteLine("Ögrenci Adi Giriniz :");
+                adgir = Console.ReadLine();
+
+                Console.WriteLine("Tc Kimlik No Giriniz :");
+                tcgir = Convert.ToString(Console.ReadLine());
+
+                if (adgir.ToLower()=="kapat" || tcgir.ToLower()=="kapat")
+                {
+                    break;
+                }
+                sw.WriteLine($"Ögrenci Adi :{adgir} Tc kimlik no : {tcgir}");
+            }
+            sw.Flush();
+            sw.Close();
+
+            Console.ReadKey();

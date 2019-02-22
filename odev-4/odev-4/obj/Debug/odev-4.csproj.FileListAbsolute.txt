@@ -1,0 +1,9 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\odev-4\odev-4\bin\Debug\odev-4.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\odev-4\odev-4\bin\Debug\odev-4.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\odev-4\odev-4\bin\Debug\odev-4.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\odev-4\odev-4\obj\Debug\odev-4.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\odev-4\odev-4\obj\Debug\odev_4.Form1.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\odev-4\odev-4\obj\Debug\odev_4.Properties.Resources.resources
+C:\Users\suleyman.avsar\Desktop\console.uygulama\odev-4\odev-4\obj\Debug\odev-4.csproj.GenerateResource.Cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\odev-4\odev-4\obj\Debug\odev-4.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\odev-4\odev-4\obj\Debug\odev-4.pdb

@@ -1,0 +1,6 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\NestedClass\NestedClass\bin\Debug\NestedClass.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\NestedClass\NestedClass\bin\Debug\NestedClass.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\NestedClass\NestedClass\bin\Debug\NestedClass.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\NestedClass\NestedClass\obj\Debug\NestedClass.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\NestedClass\NestedClass\obj\Debug\NestedClass.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\NestedClass\NestedClass\obj\Debug\NestedClass.pdb

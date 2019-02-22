@@ -1,0 +1,6 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\PPP\PPP\bin\Debug\PPP.exe.config
+C:\Users\suleyman.avsar\Desktop\console.uygulama\PPP\PPP\bin\Debug\PPP.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\PPP\PPP\bin\Debug\PPP.pdb
+C:\Users\suleyman.avsar\Desktop\console.uygulama\PPP\PPP\obj\Debug\PPP.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\console.uygulama\PPP\PPP\obj\Debug\PPP.exe
+C:\Users\suleyman.avsar\Desktop\console.uygulama\PPP\PPP\obj\Debug\PPP.pdb

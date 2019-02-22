@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<yemeklistesi>
+  <baslik bilgi="Bu etiket başlığı içermektedir">SmartPro Öğle Yemeği Menüleri</baslik>
+  <menu adi="Menü 1">
+    <corba>Tarhana</corba>
+    <anayemek>Dolma Biber</anayemek>
+    <tatlı>Sütlaç</tatlı>
+  </menu>
+  <menu adi="Menü 2">
+    <corba>Ezogelin</corba>
+    <anayemek>Musakka</anayemek>
+    <tatlı>Baklava</tatlı>
+  </menu>
+  <menu adi="Menü 3">
+    <corba>Yayla</corba>
+    <anayemek>Kuru Fasülye</anayemek>
+    <tatlı>Kazandibi</tatlı>
+  </menu>
+</yemeklistesi>

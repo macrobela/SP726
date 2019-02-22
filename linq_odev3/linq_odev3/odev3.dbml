@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="odev3" Class="odev3DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost;Initial Catalog=odev3;User ID=sa" SettingsObjectName="linq_odev3.Properties.Settings" SettingsPropertyName="odev3ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Ogrenci" Member="Ogrencis">
+    <Type Name="Ogrenci">
+      <Column Name="OgrenciNumara" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="OgrenciAdSoyad" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="OgrenciBolum" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="OgrenciFakulte" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

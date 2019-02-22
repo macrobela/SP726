@@ -1,0 +1,1 @@
+C:\Users\suleyman.avsar\Desktop\console.uygulama\xml_Serialization_DeSerialization\xml_Serialization_DeSerialization\bin\Debug\xml_Serialization_DeSerialization.exe.config

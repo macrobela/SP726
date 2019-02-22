@@ -1,0 +1,46 @@
+--WHERE NOT kMeslek='ögretmen';--þartý saðlamayanlarý getir.
+--WHERE kADi ='sm2' OR kMeslek='ögretmen'; -- bir ÞARTI saglamasý yeterli
+--WHERE kADi ='sm2' And kMeslek='ögretmen'; --2 sarký saðlamalý
+--WHERE kMeslek IN ('ögRetmen','ogrenci'); 
+-- kMeslek ('ögretmen','ögrenci') olanlar. getir -- buyuk kucuk harf duyarlýlýgý yok
+--WHERE  kMeslek LIKE '%doktor%';-- pattern eþlesmesi (sonu basý farklý olabilir.)
+--WHERE  kMeslek LIKE '%doktor';-- pattern eþlesmesi ( basý farklý olabilir.)
+--WHERE  kMeslek LIKE 'D_ktor%';-- pattern eþlesmesi ( sonu farklý olabilir.)
+--WHERE kID BETWEEN 2 AND 4;  //2 ve 4 dahil arasýndaki sayýlar ekrana yazdýrýlsýn
+--WHERE  kID<>3;--kID degeri 3 olmayanlar
+
+
+
+---------------------------------------------------------------------------------------------
+
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP 1000 [OrderID]
+      ,[CustomerID]
+
+	  /*
+      ,[EmployeeID]
+      ,[OrderDate]
+      ,[RequiredDate]
+      ,[ShippedDate]
+      ,[ShipVia]
+      ,[Freight]
+      ,[ShipName]
+      ,[ShipAddress]
+      ,[ShipCity]
+      ,[ShipRegion]
+      ,[ShipPostalCode]
+      ,[ShipCountry]
+
+  */
+
+
+  FROM [NORTHWND].[dbo].[Orders]
+  
+  WHERE [ShipCity]='London'
+ 
+/* soru1:ShipCity:London olan kayýtlarýn OrderID lerini ve Customer ID lerini listeliyin.
+*/
+
+
+
+
