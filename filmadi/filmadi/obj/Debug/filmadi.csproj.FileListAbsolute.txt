@@ -1,0 +1,12 @@
+C:\Users\suleyman.avsar\Desktop\filmadi\filmadi\bin\Debug\filmadi.exe.config
+C:\Users\suleyman.avsar\Desktop\filmadi\filmadi\bin\Debug\filmadi.exe
+C:\Users\suleyman.avsar\Desktop\filmadi\filmadi\bin\Debug\filmadi.pdb
+C:\Users\suleyman.avsar\Desktop\filmadi\filmadi\bin\Debug\EntityFramework.dll
+C:\Users\suleyman.avsar\Desktop\filmadi\filmadi\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\suleyman.avsar\Desktop\filmadi\filmadi\bin\Debug\EntityFramework.xml
+C:\Users\suleyman.avsar\Desktop\filmadi\filmadi\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\suleyman.avsar\Desktop\filmadi\filmadi\obj\Debug\filmadi.csprojResolveAssemblyReference.cache
+C:\Users\suleyman.avsar\Desktop\filmadi\filmadi\obj\Debug\filmadi.Properties.Resources.resources
+C:\Users\suleyman.avsar\Desktop\filmadi\filmadi\obj\Debug\filmadi.csproj.GenerateResource.Cache
+C:\Users\suleyman.avsar\Desktop\filmadi\filmadi\obj\Debug\filmadi.exe
+C:\Users\suleyman.avsar\Desktop\filmadi\filmadi\obj\Debug\filmadi.pdb
