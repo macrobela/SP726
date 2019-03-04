@@ -1,0 +1,11 @@
+﻿body
+{
+}
+div.AnasayfaDiv {
+    border: 3px solid tomato;
+    margin: 5px;
+}
+
+div#SolDiv {
+    width:200px;
+}
