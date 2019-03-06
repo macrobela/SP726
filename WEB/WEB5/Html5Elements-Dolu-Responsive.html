@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title></title>
+    <style>
+        /*NAV MENU*/
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        li {
+          float: left;
+        }
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        li a:hover:not(.active) {
+          background-color: #111;
+        }
+        .active {
+          background-color: #57de5c;
+        }
+        /*NAV MENU*/
+        body
+        {
+            background-color: darkslategray;
+        }
+        main
+        {
+            width: 1360px;
+            margin:auto;
+            display: block;
+            font-size:24px;
+            overflow:auto;
+            box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(107, 250, 255, 0.19);
+        }
+        header
+        {
+            background-color:#0f6dd5;
+            height: 200px;
+        }
+        nav
+        {
+            height:55px;
+        }
+        .sectionana
+        {
+            display: block;
+            float: left;
+            width:100%;
+            background-color: #868686;
+        }
+        .section1
+        {
+            display:inline-block;
+            max-width:80%;
+            float:left;
+            min-height:600px;
+        }
+        .section1 .sec1
+        {
+            /*height:70%;*/
+            display: inline-block;
+            background-color: #d2d2d2;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            float: left;
+        }
+        .article1
+        {
+            display: block;
+            height: 30%;
+            float: left;
+            width: 100%;
+        }
+        aside
+        {
+            display:inline-block;
+            min-width:20%;
+            float:right;
+            background: #868686;
+            text-align:center;
+        }
+        footer
+        {
+            float:left;
+            display:block;
+            height:150px;
+            background-color:#57de5c;
+            width: 100%;
+            text-align:center;
+        }
+        section img
+        {
+            padding: 5px;
+            background-color: #2592e1;
+            width:95%;
+        }
+        .urun
+        {
+            margin:10px 5px;
+        }
+        .urun img{
+            width:175px;
+        }
+        hr{
+            color: #000;
+            float: left;
+            width: 100%;
+        }
+        .dunyaResimSec{
+            max-width: 50%;
+            float:left;
+        }
+        .resimYaniYazi{
+            float: left; 
+            max-width: 50%;
+        }
+        /* RESPONSIVE DESIGN */
+        @media only screen and (max-width:1355px) 
+        {
+            main
+            {
+                width:100% !important;
+            }
+            header
+            {
+                height:auto !important;
+            }
+            .section1{
+                max-width:100%;
+                display: block;
+                width:100%;
+                float: left;
+                min-height: 600px;
+            }
+            aside{
+                display: block;
+                width: 100%;
+                float: left;
+            }
+            .urun {
+                margin: 15px;
+                float: left;
+            }
+        }
+         @media only screen and (max-width:750px) 
+        {
+            .dunyaResimSec{
+                max-width: unset;
+                float: left;
+                display: block;
+                text-align: center;
+            }
+            .resimYaniYazi{
+                float: left; 
+                max-width: unset;
+                text-align:center;
+            }
+                        .article1
+            {
+                text-align:center;
+            }
+        }
+        @media only screen and (max-width:550px) 
+        {
+            nav{
+                height:unset;
+            }
+            li{
+                float:unset;
+            }
+        }
+       
+    </style>
+</head>
+<body>
+        <main>
+            <header>
+                <img src="IMG\header.jpg" style="width: 100%; height: auto;" />
+            </header>
+            <nav>
+                <ul>
+                    <li><a class="active" href="#anasayfa">Anasayfa</a></li>
+                    <li><a href="#projeler">Projeler</a></li>
+                    <li><a href="#hakkimizda">Hakkýmýzda</a></li>
+                    <li><a href="#iletisim">Ýletiþim</a></li>
+                </ul>
+            </nav>
+            <section class="sectionana">
+                <section class="section1">
+                    <section class="sec1">
+                        <section style="width:100%; float:left;">
+                            <p>Lorem Ipsum Nedir?</p>
+                        </section>
+                        <section style="float:left">
+                            <section class="dunyaResimSec">
+                                <img src="IMG\image1.jpg" alt="IMAGE1.JPG" />
+                            </section>
+                            <section class="resimYaniYazi">
+                                <article style="padding: 0 20px 0 20px;">
+                                    Lorem Ipsum, dizgi ve baský endüstrisinde kullanýlan mýgýr metinlerdir. Lorem Ipsum, adý bilinmeyen bir matbaacýnýn bir hurufat numune kitabý oluþturmak üzere bir yazý galerisini alarak karýþtýrdýðý 1500'lerden beri endüstri standardý sahte metinler olarak kullanýlmýþtýr. Beþyüz yýl boyunca varlýðýný sürdürmekle kalmamýþ, ayný zamanda pek deðiþmeden elektronik dizgiye de sýçramýþtýr. 1960'larda Lorem Ipsum pasajlarý da içeren Letraset yapraklarýnýn yayýnlanmasý ile ve yakýn zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayýncýlýk yazýlýmlarý ile popüler olmuþtur.
+                                </article>
+                            </section>
+                        </section>
+                        <hr/>
+                        <section class="article1">
+                            <p>Nereden Gelir?</p>
+                            <article>
+                                <p>
+                                    Yaygýn inancýn tersine, Lorem Ipsum rastgele sözcüklerden oluþmaz. Kökleri M.Ö. 45 tarihinden bu yana klasik Latin edebiyatýna kadar uzanan 2000 yýllýk bir geçmiþi vardýr. Virginia'daki Hampden-Sydney College'dan Latince profesörü Richard McClintock, bir Lorem Ipsum pasajýnda geçen ve anlaþýlmasý en güç sözcüklerden biri olan 'consectetur' sözcüðünün klasik edebiyattaki örneklerini incelediðinde kesin bir kaynaða ulaþmýþtýr. Lorm Ipsum, Çiçero tarafýndan M.Ö. 45 tarihinde kaleme alýnan "de Finibus Bonorum et Malorum" (Ýyi ve Kötünün Uç Sýnýrlarý) eserinin 1.10.32 ve 1.10.33 sayýlý bölümlerinden gelmektedir. Bu kitap, ahlak kuramý üzerine bir tezdir ve Rönesans döneminde çok popüler olmuþtur. Lorem Ipsum pasajýnýn ilk satýrý olan "Lorem ipsum dolor sit amet" 1.10.32 sayýlý bölümdeki bir satýrdan gelmektedir.
+                                    1500'lerden beri kullanýlmakta olan standard Lorem Ipsum metinleri ilgilenenler için yeniden üretilmiþtir. Çiçero tarafýndan yazýlan 1.10.32 ve 1.10.33 bölümleri de 1914 H. Rackham çevirisinden alýnan Ýngilizce sürümleri eþliðinde özgün biçiminden yeniden üretilmiþtir.
+                                </p>
+                            </article>
+                        </section>
+                    </section>
+                </section>
+                <aside>
+                    <section class="urun">
+                        <section>
+                            <p>Ürün 1</p>
+                        </section>
+                        <hr style="color:bisque" />
+                        <section>
+                            <img src="IMG\urun1.jpg" width="175" />
+                        </section>
+                    </section>
+                    <section class="urun">
+                        <section>
+                            <p>Ürün 1</p>
+                        </section>
+                        <hr style="color:bisque" />
+                        <section>
+                            <img src="IMG\urun1.jpg" width="175" />
+                        </section>
+                    </section>
+                    <section class="urun">
+                        <section>
+                            <p>Ürün 1</p>
+                        </section>
+                        <hr style="color:bisque" />
+                        <section>
+                            <img src="IMG\urun1.jpg" width="175" />
+                        </section>
+                    </section>
+                </aside>
+            </section>
+            <footer>
+                <p>Kafasý Karýþýk E-Ticaret Sitesi</p>
+                <a href="#404">404 Design</a>
+            </footer>
+        </main>
+</body>
+</html>
