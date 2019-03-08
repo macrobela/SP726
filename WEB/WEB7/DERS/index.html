@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+
+    <!-- External  Javascript İmport -->
+
+    <script src="Script.js">
+       
+    </script>
+    <style>
+        .container{
+            display:grid;
+            background-color:AppWorkspace;
+            grid-template-columns:1fr 1fr 1fr 1fr;
+            height:auto;
+            column-gap:5px;
+            row-gap:5px;
+        }
+        .kutu{
+            background-color:#4cff00;
+        }
+    </style>
+    <title>JavaScript</title>
+</head>
+<body>
+    <div class="container">
+        <section class="kutu">
+            <p id="merhaba">MerhabaDünya</p>
+            <button onclick="merhabaMesaj()" onmousewheel="tekerlek()">Tikla</button>
+
+        </section>
+
+        <p id="merhaba">MerhabaDünya</p>
+        <button onclick="merhabaMesaj()" onmousewheel="tekerlek()">Tikla</button>
+
+        <button onclick="renklendir()">Renklendir</button>
+        <section class="kutu">
+
+        </section>
+        </div>
+   
+
+    
+
+
+</body>
+</html>

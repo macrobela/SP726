@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+
+    <title></title>
+     <script src="Script.js" defer="true"></script>
+    <style>
+        .container {
+            border: 2px solid #00ba18;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 5px;
+            row-gap: 5px;
+            padding: 15px;
+            border-radius: 3px;
+        }
+
+        .kutu {
+            background-color: #00ba18;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-bottom: 5px;
+            text-align: center;
+            border-radius: 6px;
+            border: 1px #007d7d solid;
+        }
+
+        .konu {
+            font-size: 18px;
+            display: block;
+            border: ridge 2px #ff8f00;
+            border-radius: 6px;
+            padding: 5px;
+        }
+
+        /*.kutu2{
+             font-size: 18px;
+            display: block;
+            border: ridge 2px #ff8f00;
+            border-radius: 6px;
+            padding: 5px;
+        }*/
+
+
+
+        section .kutu2{
+            font-size: 18px;
+            display: block;
+            border: ridge 2px #ff8f00;
+            border-radius: 6px;
+            padding: 5px;
+            box-shadow: 0 25px 50px rgba(0,0,0.5);
+        }
+
+        input[type="color"]
+        {
+            width:10%;
+            height:10%;
+            margin:0px;
+            padding:0px;
+        }
+
+        button {
+            width: 200px;
+            height: 80px;
+            font-size: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+
+        <section class="kutu2">
+            <input type="number" min="0" id="input_sayi" />
+            <br />
+            <br />
+            <button onclick="sayilar()">3'e Bölünen</button>
+            <p class="konu" id="sayilar">yazi yazmak güzeldir.</p>
+            <br />
+            <br />
+        </section>
+
+        <section class="kutu2" id="renq">
+           
+           <input type="color" id="renksecim" onchange="renkdegis()"/>
+            <p class="konu">Renk değişmek</p>
+            <br />
+            <br />
+        </section>
+
+    </section>
+</body>
+</html>

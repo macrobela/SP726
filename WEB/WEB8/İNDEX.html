@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script src="script.js">
+
+
+    </script>
+    <style>
+        .container {
+            border: 2px solid #ff6a00;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 5px;
+            row-gap: 5px;
+            padding: 15px;
+            border-radius: 3px;
+        }
+
+        .kutu {
+            background-color: #1ea1a1;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-bottom: 5px;
+            text-align: center;
+            border-radius: 6px;
+            border: 1px #007d7d solid;
+        }
+
+        .konu {
+            font-size: 18px;
+            display: block;
+            border: ridge 2px #ff6a00;
+            border-radius: 6px;
+            padding: 5px;
+        }
+
+        button {
+            width: 200px;
+            height: 80px;
+            font-size: 20px;
+        }
+    </style>
+
+    <title></title>
+</head>
+<body>
+    <section class="container">
+        <section class="kutu">
+            <p class="konu">Stil Değişikliği</p>
+            <br />
+            <button onclick="this.style.display='none'">
+                Butonu Silmek için Tıkla!
+            </button>
+        </section>
+
+        <section class="kutu">
+            <p class="konu">Class Yapısı OOP</p>
+            <br />
+            <form>
+                <input id="input_tc" type="text" />
+                <input id="input_ad" type="text" />
+                <button onclick="bilgiGoster()">Bilgi Göster</button>
+            </form>
+        </section>
+
+
+        <section class="kutu">
+            <p class="konu">FOR IN</p>
+            <br />
+            <p id="classListe" class="test test">O Classlar Buraya Gelecek!</p>
+            <button onclick="classListele()">Sınıf Listele</button>
+        </section>
+
+    </section>
+
+</body>
+</html>
