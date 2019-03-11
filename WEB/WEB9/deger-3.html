@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>deger-3</title>
+    <style>
+        .konu {
+            background-color: #f2f3ca;
+        }
+
+        .kutu {
+            background-color: #f2f3ca;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-bottom: 5px;
+            height:50%;
+            text-align: center;
+            border-radius: 6px;
+            border: 1px #007d7d solid;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $("#btn1").click(function () {
+                $("#kutu1").css({ "background-color": "blue" });
+                $("#kutu2").css({ "background-color": "red" });
+                $("body").css({ "background-color": "aqua" });
+            });
+        });
+
+
+    </script>
+</head>
+<body>
+    <section class="konu">
+        <section class="kutu">
+            <input type="button" id="btn1" value="TIKLA">
+        </section>
+
+
+
+    </section>
+
+</body>
+</html>

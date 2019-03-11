@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+   <style>
+        .container {
+            border: 2px solid #00ba18;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 5px;
+            row-gap: 5px;
+            padding: 15px;
+            border-radius: 3px;
+        }
+        .kutu {
+            background-color: #f2f3ca;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-bottom: 5px;
+            text-align: center;
+            border-radius: 6px;
+            border: 2px #007d7d solid;
+        }
+        .konu {
+            font-size: 18px;
+            display: block;
+            border: ridge 2px #ff8f00;
+            border-radius: 6px;
+            padding: 5px;
+        }
+        button {
+            width: 200px;
+            height: 80px;
+            font-size: 20px;
+        }
+    </style>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <script>
+
+        $(document).ready(function() {
+            $("#btn1").click(function () {
+
+                var renkKODU = $("#kutuRenk").val();
+                $("#kutu2").css("background-color", renkKODU);
+                $("#article6").before("<h3>Makale</h3>")
+
+                var yaziBOYUTU = $("#yaziId").val();
+                alert(yaziBOYUTU);
+                $("#article7").css("font-size", yaziBOYUTU + "px");
+
+                $("#article7").before("<h3>Makale</h3>")
+            });
+
+           
+
+            
+        });
+    </script>
+</head>
+<body>
+   <main class="container">
+
+    <section class="kutu">
+            <article id="article6" title="Test">
+               6. Kisim
+            </article>
+            <span>Renk Seçiniz: </span><input type="color" id="kutuRenk"/>
+            <p id="gergergerg"></p>
+            <button id="btn1" type="button">Kaydet</button>
+         <input type="number" id="yaziId" />
+    </section>
+
+        <section class="kutu" id="kutu2">
+            <article id="article7">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            </article>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // jBtn1 Click Metodu
+            $("#jBtn1").click(function () {
+                // ID ve Class ile seçim
+                //$("section#jQueryTest1").hide();
+                $("p.jTest1,section#jQueryTest1").hide();
+                // Tüm p elementlerini seçme
+                $("p").hide();
+            });
+            //kutu2btn Click Metodu
+            $("#kutu2btn").click(function () {
+                // Sadece text veriyi getirir.
+                var degisken1 = $("#article1").text();
+                alert(degisken1);
+            });
+            $("#kutu2btn2").click(function () {
+                // html etiketlerini de getirir.(Örn: <b></b>)
+                var degisken1 = $("#article1").html();
+                alert(degisken1);
+            });
+            $("#kutu2btn3").click(function () {
+                // formdaki val değerini getirir.(Örn:
+                var degisken1 = $("#kutu2Ad").val();
+                alert(degisken1);
+            });
+        })
+    </script>
+
+    <style>
+        .container {
+            border: 2px solid #00ba18;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 5px;
+            row-gap: 5px;
+            padding: 15px;
+            border-radius: 3px;
+        }
+
+        .kutu {
+            background-color: #f2f3ca;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-bottom: 5px;
+            text-align: center;
+            border-radius: 6px;
+            border: 1px #007d7d solid;
+        }
+
+        .konu {
+            font-size: 18px;
+            display: block;
+            border: ridge 2px #ff8f00;
+            border-radius: 6px;
+            padding: 5px;
+        }
+
+        button {
+            width: 200px;
+            height: 80px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <section class="kutu">
+            <section id="jQueryTest1">
+                <p>
+                    Merhaba 726
+                </p>
+            </section>
+            <span class="jTest1">Span jTest1</span>
+            <section>
+                <p class="jTest1">
+                    Merhaba 726 jTest1
+                </p>
+                <p class="jTest2">
+                    HTML'in en önemli etiketlerinden
+                    birisi de &ltp&gt etiketidir.
+                    <!-- < ve > işaretleri için &lt ve &gt  -->
+                </p>
+                <p class="jTest1">
+                    Merhaba 726 jTest1
+                </p>
+            </section>
+            <section id="jQueryButon">
+                <button type="button" id="jBtn1">GİZLE</button>
+            </section>
+
+
+        </section>
+        <section class="kutu">
+            <article id="article1">
+                Makale 1 : <b>Güzel</b> Bahar mevsiminin getirdikleri
+            </article>
+            <input id="kutu2Ad" value="Süleyman Beytullah Avşar" />
+            <button id="kutu2btn">Text Verisini Oku</button>
+            <button id="kutu2btn2">Html Verisini Oku</button>
+            <button id="kutu2btn3">Val Verisini Oku</button>
+        </section>
+    </main>
+</body>
+</html>

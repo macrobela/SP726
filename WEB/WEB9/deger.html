@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>ders-1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+        
+        $(document).ready(function () {
+
+            $("#kutu2btn").click(function () {
+                var degisken1 = $("#article1").text();
+                 degisken1 += $("#kutu2Ad").val();
+                alert(degisken1);
+            });
+        })
+
+    </script>
+
+
+
+
+    <style>
+        .kutu3{
+            border:2px solid #808080;
+            width:300px;
+            height:250px;
+            text-align:center;
+            line-height:50px;
+        }
+    </style>
+
+</head>
+<body>
+    <section class="kutu3">
+        <article id="article1">
+            Makale 1 : <b>Şazeli</b> Burasi master page alanidir.Buraya giris yapılmaz
+        </article>
+        <input id="kutu2Ad" value="Tanımsız" />
+        <button id="kutu2btn">Text Verisini Oku</button>
+    </section>
+
+
+
+        
+
+
+
+
+
+
+</body>
+</html>

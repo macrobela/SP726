@@ -1,0 +1,210 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+             jBtn1 Click Metodu
+            $("#jBtn1").click(function () {
+                // ID ve Class ile seçim
+                //$("section#jQueryTest1").hide();
+                $("p.jTest1,section#jQueryTest1").hide();
+                // Tüm p elementlerini seçme
+                $("p").hide();
+            });
+            kutu2btn Click Metodu
+            $("#kutu2btn").click(function () {
+                // Sadece text veriyi getirir.
+                var degisken1 = $("#article1").text();
+                alert(degisken1);
+            });
+            $("#kutu2btn2").click(function () {
+                // html etiketlerini de getirir.(Örn: <b></b>)
+                var degisken1 = $("#article1").html();
+                alert(degisken1);
+            });
+            $("#kutu2btn3").click(function () {
+                // formdaki val değerini getirir.(Örn:
+                var degisken1 = $("#kutu2Ad").val();
+                alert(degisken1);
+            });
+            $("#kutu3btn").click(function () {
+                // .text veri atama işlemi
+                var tc = $("#kutu3Ad").val();
+                $("#article2").text(tc);
+            });
+            $("#kutu3btn2").click(function () {
+                // .html veri atama işlemi
+                var tc = $("#kutu3Ad").val();
+                $("#article2").html("<span class='SpanEkle'><b>" + tc + "</b></span>");
+            });
+            $("#kutu3btn3").dblclick(function () {
+                // form öğelerine değer atama işlemleri .val() ile.
+                $("#kutu3Ad").val("00000000000");
+                $("p#merhaba").text("MERHABA YASEMİN");
+            });
+            $("section").hover(function () {
+                $(this).css("border", "5px solid brown");
+            });
+            $("section").mouseout(function () {
+                $(this).css("border", "unset");
+            });
+            // kutu4 section kısmı
+            $("#kutu4btn").click(function () {
+                $("#article4").append(" Sonrasına Eklenen Kısım");
+            });
+            $("#kutu4btn2").click(function () {
+                $("#article4").prepend(" Öncesine Eklenen Kısım");
+            });
+            $("#kutu4btn4").click(function () {
+                $("#article4").after(" <div>MERHABA YENİ DİV </div>");
+                $("#article4").before("<div style='overflow:auto; height:100px; border:3px solid brown'></div>");
+                
+            });
+            $("#kutu5btn").click(function () {
+                // Tüm article'ları sil.
+                //$("article").remove();
+                //  ID'si article5 article ı sil.
+                $("article").remove("#article5");
+            });
+            $("#kutu5btn2").click(function () {
+                $("body").css("background-color","green");
+            });
+
+
+
+            $("#kutu5btn6").click(function () {
+                $("#article6").css({ "background-color": "blue" });
+                $("#article7").css({ "background-color": "red" });
+                $("kutu").css({ "background-color": "aqua" });
+            });
+
+            $("#kutu5btn6").click(function () {
+                $("#article6").css({ "background-color": "blue" });
+                $("#article7").css({ "background-color": "red" });
+                $("kutu").css({ "background-color": "aqua" });
+            });
+        });
+    </script>
+    <style>
+        .container {
+            border: 2px solid #00ba18;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 5px;
+            row-gap: 5px;
+            padding: 15px;
+            border-radius: 3px;
+        }
+        .kutu {
+            background-color: #f2f3ca;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-bottom: 5px;
+            text-align: center;
+            border-radius: 6px;
+            border: 1px #007d7d solid;
+        }
+        .konu {
+            font-size: 18px;
+            display: block;
+            border: ridge 2px #ff8f00;
+            border-radius: 6px;
+            padding: 5px;
+        }
+        button {
+            width: 200px;
+            height: 80px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <section class="kutu">
+            <section id="jQueryTest1">
+                <p>
+                    Merhaba 726
+                </p>
+            </section>
+            <span class="jTest1">Span jTest1</span>
+            <section>
+                <p class="jTest1">
+                    Merhaba 726 jTest1
+                </p>
+                <p class="jTest2">
+                    HTML'in en önemli etiketlerinden 
+            birisi de &ltp&gt etiketidir. 
+            <!-- < ve > işaretleri için &lt ve &gt  -->
+                </p>
+                <p class="jTest1">
+                    Merhaba 726 jTest1
+                </p>
+            </section>
+            <section id="jQueryButon">
+                <button type="button" id="jBtn1">GİZLE</button>
+            </section>
+
+
+        </section>
+        <section class="kutu">
+            <article id="article1" title="Test">
+                Makale 1 : <b>Güzel</b> Bahar mevsiminin getirdikleri
+            </article>
+            <input id="kutu2Ad" value="Süleyman Beytullah Avşar" title="" />
+            <button id="kutu2btn">Text Verisini Oku</button>
+            <button id="kutu2btn2">Html Verisini Oku</button>
+            <button id="kutu2btn3">Val Verisini Oku</button>
+        </section>
+        <section class="kutu">
+            <article id="article2" title="Test">
+                Boş article
+            </article>
+            <input id="kutu3Ad" value="" placeholder="Kullanıcı TC Giriniz" />
+            <p id="merhaba"></p>
+            <button id="kutu3btn">Text Verisi Ata</button>
+            <button id="kutu3btn2">Html Verisini Oku</button>
+            <button id="kutu3btn3">Val Verisi Ata</button>
+        </section>
+        <section class="kutu">
+
+            <article id="article4" title="Test">
+                Bomboş article 
+            </article>
+            <p id="merhaba4"></p>
+            <button id="kutu4btn">Append Örnek</button>
+            <button id="kutu4btn2">Prepend Örnek</button>
+            <button id="kutu4btn4">Before Örnek</button>
+        </section>
+                <section class="kutu">
+            <article id="article5" title="Test">
+                Bomboş article 
+            </article>
+            <p id="merhaba5"></p>
+            <button id="kutu5btn">Remove Örnek</button>
+            <button id="kutu5btn2">CSS Değiştir</button>
+        </section>
+
+
+        <section class="kutu">
+            <article id="article6" title="Test">
+               6. Kisim
+            </article>
+            <p id="gergergerg"></p>
+            <button id="kutu5btn6">Renk Değiştir</button>
+            <button id="kutu5btn6">CSS Değiştir</button>
+        </section>
+        <section class="kutu">
+            <article id="article7" title="Test">
+                7.Kisim 
+            </article>
+            <p id="gerherher"></p>
+            <button id="kutu5btn7">Remove Örnek</button>
+            <button id="kutu5btn7">CSS Değiştir</button>
+        </section>
+    </main>
+</body>
+</html>
