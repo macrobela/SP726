@@ -4,17 +4,47 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // jBtn1 Click Metodu
+            $("#jBtn1").click(function () {
+                // ID ve Class ile seçim
+                //$("section#jQueryTest1").hide();
+                $("p.jTest1,section#jQueryTest1").hide();
+                // Tüm p elementlerini seçme
+                $("p").hide();
+            });
+            //kutu2btn Click Metodu
+            $("#kutu2btn").click(function () {
+                // Sadece text veriyi getirir.
+                var degisken1 = $("#article1").text();
+                alert(degisken1);
+            });
+            $("#kutu2btn2").click(function () {
+                // html etiketlerini de getirir.(Örn: <b></b>)
+                var degisken1 = $("#article1").html();
+                alert(degisken1);
+            });
+            $("#kutu2btn3").click(function () {
+                // formdaki val değerini getirir.(Örn:
+                var degisken1 = $("#kutu2Ad").val();
+                alert(degisken1);
+            });
+        })
+    </script>
 
     <style>
         .container {
             border: 2px solid #00ba18;
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
             column-gap: 5px;
             row-gap: 5px;
             padding: 15px;
             border-radius: 3px;
         }
+
         .kutu {
             background-color: #f2f3ca;
             padding-right: 15px;
@@ -24,6 +54,7 @@
             border-radius: 6px;
             border: 1px #007d7d solid;
         }
+
         .konu {
             font-size: 18px;
             display: block;
@@ -31,54 +62,51 @@
             border-radius: 6px;
             padding: 5px;
         }
+
         button {
             width: 200px;
             height: 80px;
             font-size: 20px;
         }
     </style>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <script src="JS/jquery.min.js"></script>
-
-    <script>
-        $(document).ready(function () {
-            $("#btn1").click(function () {
-                var renkKODU = $("#renkId").val();
-                $("#kutu2").css("background-color", renkKODU);
-
-                var yaziBOYUTU = $("#yaziId").val();
-                alert(yaziBOYUTU);
-                //$("#metin1").css("font-size", yaziBOYUTU);
-                $("#metin1").css("font-size", yaziBOYUTU + "px");
-
-                $("#metin1").before("<h3>Makale</h3>")
-            })
-        })
-    </script>
-
 </head>
 <body>
-
     <main class="container">
-
         <section class="kutu">
-            <br />
-            <input type="color" id="renkId" value="jk2g34"; />
-            <br /><br />
-            <input type="number" id="yaziId" />
-            <br /><br />
-            <button id="btn1">KAYDET</button>
-        </section>
+            <section id="jQueryTest1">
+                <p>
+                    Merhaba 726
+                </p>
+            </section>
+            <span class="jTest1">Span jTest1</span>
+            <section>
+                <p class="jTest1">
+                    Merhaba 726 jTest1
+                </p>
+                <p class="jTest2">
+                    HTML'in en önemli etiketlerinden
+                    birisi de &ltp&gt etiketidir.
+                    <!-- < ve > işaretleri için &lt ve &gt  -->
+                </p>
+                <p class="jTest1">
+                    Merhaba 726 jTest1
+                </p>
+            </section>
+            <section id="jQueryButon">
+                <button type="button" id="jBtn1">GİZLE</button>
+            </section>
 
-        <section class="kutu" id="kutu2">
-            <article id="metin1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+        </section>
+        <section class="kutu">
+            <article id="article1">
+                Makale 1 : <b>Güzel</b> Bahar mevsiminin getirdikleri
             </article>
+            <input id="kutu2Ad" value="Süleyman Beytullah Avşar" />
+            <button id="kutu2btn">Text Verisini Oku</button>
+            <button id="kutu2btn2">Html Verisini Oku</button>
+            <button id="kutu2btn3">Val Verisini Oku</button>
         </section>
-
     </main>
-
 </body>
 </html>

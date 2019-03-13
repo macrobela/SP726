@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        .container {
+            border: 2px solid #00ba18;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 5px;
+            row-gap: 5px;
+            padding: 15px;
+            border-radius: 3px;
+        }
+        .kutu {
+            background-color: #f2f3ca;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-bottom: 5px;
+            text-align: center;
+            border-radius: 6px;
+            border: 1px #007d7d solid;
+        }
+        .konu {
+            font-size: 18px;
+            display: block;
+            border: ridge 2px #ff8f00;
+            border-radius: 6px;
+            padding: 5px;
+        }
+        button {
+            width: 200px;
+            height: 80px;
+            font-size: 20px;
+        }
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="JS/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#btn1").click(function () {
+                var renkKODU = $("#renkId").val();
+                $("#kutu2").css("background-color", renkKODU);
+
+                var yaziBOYUTU = $("#yaziId").val();
+                alert(yaziBOYUTU);
+                //$("#metin1").css("font-size", yaziBOYUTU);
+                $("#metin1").css("font-size", yaziBOYUTU + "px");
+
+                $("#metin1").before("<h3>Makale</h3>")
+            })
+        })
+    </script>
+
+</head>
+<body>
+
+    <main class="container">
+
+        <section class="kutu">
+            <br />
+            <input type="color" id="renkId" value="jk2g34"; />
+            <br /><br />
+            <input type="number" id="yaziId" />
+            <br /><br />
+            <button id="btn1">KAYDET</button>
+        </section>
+
+        <section class="kutu" id="kutu2">
+            <article id="metin1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </article>
+        </section>
+
+    </main>
+
+</body>
+</html>
