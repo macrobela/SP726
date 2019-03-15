@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="sd.Site1" %>
+
+<%@ Register Src="~/navustcontrol.ascx" TagPrefix="uc1" TagName="navustcontrol" %>
+
+
+<%--
+    string veri gelecekse      
+<% %>
+<%= %>
+
+VeriTabaqnı İşlemleri gelecekse:
+<%# %>
+
+  --%>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+     <link rel="stylesheet" href="CSS\style.css" />
+    <title>Değisecek</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <main>
+    <header id="header_ust">
+        HEADER_CONTENT
+    </header>
+
+    <nav id="nav_ust">
+        <uc1:navustcontrol runat="server" id="navustcontrol" />
+    </nav>
+
+    <form id="form1" runat="server">
+
+      <section class="content_sections">
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+    </section>
+
+    </form>
+
+    <footer id="footer_alt">
+        FOOTER CONTENT
+    </footer>
+        </main>
+</body>
+</html>

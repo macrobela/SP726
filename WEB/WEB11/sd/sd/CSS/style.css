@@ -1,0 +1,74 @@
+﻿main
+{
+    width:900px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}
+
+header#header_ust
+{
+    background-color:#609fce;
+    grid-column-start:1;
+    grid-column-end:5;
+    height:130px;
+}
+
+nav#nav_ust
+{
+    background-color:#ff6a00;
+    grid-column-start:1;
+    grid-column-end:5;
+    height:45px;
+    height:45px;
+}
+
+nav#nav_ust ul{
+   height:45px;
+   padding:0px !important;
+   margin:0px !important;
+   line-height:45px;
+}
+
+
+nav#nav_ust li{
+    list-style-type:none;
+    float:left;
+    width:120px;
+}
+
+footer#footer_alt
+{
+    background-color:#609fce;
+    grid-column-start:1;
+    grid-column-end:5;
+    height:100px;
+}
+
+section.content_sections{
+    height:auto;
+    float:left;
+    width:100%;
+    background-color:darkgoldenrod;
+    /*grid-column-start:5;*/
+  
+    
+}
+section.content_sections img{
+    width:150px;
+    float:left;
+}
+
+main>form{
+
+    /*grid-column:1/span 4;*/
+
+    grid-column-start:1;
+    grid-column-end:5;
+}
+
+
+section.film_kaydet{
+    padding:25px;
+    background-color:aliceblue;
+}
